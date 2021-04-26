@@ -335,262 +335,16 @@ Wire Wire Line
 Connection ~ 1350 4700
 Wire Wire Line
 	1350 4700 1250 4700
-Text Notes 500  600  0    50   ~ 0
-Power circuit
-$Comp
-L Nils_KiCADLibrary:ST1PS02 U?
-U 1 1 6089725B
-P 4100 1450
-F 0 "U?" H 4400 1750 50  0000 L CNN
-F 1 "ST1PS02" H 4350 1100 50  0000 L CNN
-F 2 "" H 4200 1350 50  0001 C CNN
-F 3 "" H 4200 1350 50  0001 C CNN
-	1    4100 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6089C8C9
-P 3750 2200
-F 0 "C?" H 3842 2246 50  0000 L CNN
-F 1 "10u" H 3842 2155 50  0000 L CNN
-F 2 "" H 3750 2200 50  0001 C CNN
-F 3 "~" H 3750 2200 50  0001 C CNN
-	1    3750 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 6089F866
-P 3750 2300
-F 0 "#PWR0110" H 3750 2050 50  0001 C CNN
-F 1 "GND" H 3755 2127 50  0000 C CNN
-F 2 "" H 3750 2300 50  0001 C CNN
-F 3 "" H 3750 2300 50  0001 C CNN
-	1    3750 2300
-	1    0    0    -1  
-$EndComp
-Text GLabel 4100 1050 1    50   Input ~ 0
-D0
-Text GLabel 4000 1050 1    50   Input ~ 0
-D1
-Text GLabel 3900 1050 1    50   Input ~ 0
-D2
-Text GLabel 4300 1000 1    50   Input ~ 0
-PGOOD
-$Comp
-L power:GND #PWR0111
-U 1 1 608A54A2
-P 4000 650
-F 0 "#PWR0111" H 4000 400 50  0001 C CNN
-F 1 "GND" H 4005 477 50  0000 C CNN
-F 2 "" H 4000 650 50  0001 C CNN
-F 3 "" H 4000 650 50  0001 C CNN
-	1    4000 650 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 608A5E79
-P 4200 850
-F 0 "R?" H 4100 950 50  0000 L CNN
-F 1 "0" H 4100 850 50  0000 L CNN
-F 2 "" H 4200 850 50  0001 C CNN
-F 3 "~" H 4200 850 50  0001 C CNN
-	1    4200 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 600  4000 650 
-Text GLabel 3550 1450 0    50   Input ~ 0
-EN
-Wire Wire Line
-	4700 1450 4800 1450
-Wire Wire Line
-	4800 1450 4800 1500
-$Comp
-L Device:C_Small C?
-U 1 1 608ACAE7
-P 4800 1600
-F 0 "C?" H 4892 1646 50  0000 L CNN
-F 1 "10u" H 4892 1555 50  0000 L CNN
-F 2 "" H 4800 1600 50  0001 C CNN
-F 3 "~" H 4800 1600 50  0001 C CNN
-	1    4800 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 950  4200 1100
-Wire Wire Line
-	4200 750  4200 600 
-Wire Wire Line
-	4200 600  4000 600 
-$Comp
-L power:GND #PWR0112
-U 1 1 608B502B
-P 4200 2150
-F 0 "#PWR0112" H 4200 1900 50  0001 C CNN
-F 1 "GND" H 4205 1977 50  0000 C CNN
-F 2 "" H 4200 2150 50  0001 C CNN
-F 3 "" H 4200 2150 50  0001 C CNN
-	1    4200 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 1850 4200 2050
-$Comp
-L Device:L_Small L?
-U 1 1 608B7369
-P 4100 1950
-F 0 "L?" H 4148 1996 50  0000 L CNN
-F 1 "2.2u" H 4148 1905 50  0000 L CNN
-F 2 "" H 4100 1950 50  0001 C CNN
-F 3 "~" H 4100 1950 50  0001 C CNN
-	1    4100 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 2050 4100 2400
-$Comp
-L Device:C_Small C?
-U 1 1 608BC7FD
-P 4400 2250
-F 0 "C?" H 4492 2296 50  0000 L CNN
-F 1 "10u" H 4492 2205 50  0000 L CNN
-F 2 "" H 4400 2250 50  0001 C CNN
-F 3 "~" H 4400 2250 50  0001 C CNN
-	1    4400 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 2400 4400 2350
-Wire Wire Line
-	4100 2400 4400 2400
-Wire Wire Line
-	4400 2400 4650 2400
-Wire Wire Line
-	4650 2400 4650 2150
-Wire Wire Line
-	4650 1950 4300 1950
-Wire Wire Line
-	4300 1950 4300 1850
-Connection ~ 4400 2400
-Wire Wire Line
-	4400 2150 4200 2150
-Connection ~ 4200 2150
-Wire Wire Line
-	4800 2050 4200 2050
-Wire Wire Line
-	4800 1700 4800 2050
-Connection ~ 4200 2050
-Wire Wire Line
-	4200 2050 4200 2150
-$Comp
-L Device:R_Small R?
-U 1 1 608C9872
-P 5050 1950
-F 0 "R?" H 5109 1996 50  0000 L CNN
-F 1 "1M" H 5109 1905 50  0000 L CNN
-F 2 "" H 5050 1950 50  0001 C CNN
-F 3 "~" H 5050 1950 50  0001 C CNN
-	1    5050 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 1000 4300 1050
-Wire Wire Line
-	4300 1050 5050 1050
-Wire Wire Line
-	5050 1050 5050 1850
-Connection ~ 4300 1050
-Wire Wire Line
-	4300 1050 4300 1100
-Wire Wire Line
-	5050 2050 5050 2400
-Wire Wire Line
-	5050 2400 4650 2400
-Connection ~ 4650 2400
-Wire Wire Line
-	5050 2400 5200 2400
-Wire Wire Line
-	5200 2400 5200 2350
-Connection ~ 5050 2400
 Wire Notes Line
 	5150 2550 5150 7750
-Wire Wire Line
-	3600 2000 3600 2100
-Wire Wire Line
-	3750 2100 4000 2100
-Wire Wire Line
-	4000 2100 4000 1850
-Wire Wire Line
-	3750 2100 3600 2100
-Connection ~ 3750 2100
 Wire Notes Line
 	5350 2550 5350 500 
-Wire Wire Line
-	4100 1100 4100 1050
-Wire Wire Line
-	4000 1100 4000 1050
-Wire Wire Line
-	3900 1100 3900 1050
-Text GLabel 3600 2000 1    50   Input ~ 0
-SW
-Text GLabel 3600 800  2    50   Input ~ 0
-D0
-Text GLabel 3600 700  2    50   Input ~ 0
-D1
-Text GLabel 4800 1400 1    50   Input ~ 0
-Vout2
-Text GLabel 4700 2150 2    50   Input ~ 0
-VOUT
-Wire Wire Line
-	4700 2150 4650 2150
-Connection ~ 4650 2150
-Wire Wire Line
-	4650 2150 4650 1950
-Wire Wire Line
-	4800 1400 4800 1450
-Connection ~ 4800 1450
 Text GLabel 10100 700  0    50   Input ~ 0
 VOUT
-$Comp
-L Connector:Conn_01x01_Male J?
-U 1 1 609BEB46
-P 10300 700
-F 0 "J?" H 10272 632 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 10272 723 50  0000 R CNN
-F 2 "" H 10300 700 50  0001 C CNN
-F 3 "~" H 10300 700 50  0001 C CNN
-	1    10300 700 
-	-1   0    0    1   
-$EndComp
-Text GLabel 10100 850  0    50   Input ~ 0
+Text GLabel 10100 900  0    50   Input ~ 0
 Vout2
-$Comp
-L Connector:Conn_01x01_Male J?
-U 1 1 609BF5F0
-P 10300 850
-F 0 "J?" H 10272 782 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 10272 873 50  0000 R CNN
-F 2 "" H 10300 850 50  0001 C CNN
-F 3 "~" H 10300 850 50  0001 C CNN
-	1    10300 850 
-	-1   0    0    1   
-$EndComp
-Text GLabel 10100 1000 0    50   Input ~ 0
+Text GLabel 10100 1100 0    50   Input ~ 0
 PGOOD
-$Comp
-L Connector:Conn_01x01_Male J?
-U 1 1 609BFB96
-P 10300 1000
-F 0 "J?" H 10272 932 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 10272 1023 50  0000 R CNN
-F 2 "" H 10300 1000 50  0001 C CNN
-F 3 "~" H 10300 1000 50  0001 C CNN
-	1    10300 1000
-	-1   0    0    1   
-$EndComp
 $Comp
 L Nils_KiCADLibrary:BMA423-ds004-00 BMA?
 U 1 1 609CB726
@@ -669,17 +423,6 @@ Text GLabel 7800 1250 2    50   Input ~ 0
 BMA_CSB
 NoConn ~ 7400 1050
 NoConn ~ 6850 1550
-$Comp
-L power:GND #PWR0117
-U 1 1 609E9EFA
-P 3900 1850
-F 0 "#PWR0117" H 3900 1600 50  0001 C CNN
-F 1 "GND" H 3905 1677 50  0000 C CNN
-F 2 "" H 3900 1850 50  0001 C CNN
-F 3 "" H 3900 1850 50  0001 C CNN
-	1    3900 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6700 1900 6700 1950
 Text GLabel 7300 1050 1    50   Input ~ 0
@@ -714,19 +457,8 @@ Wire Wire Line
 Connection ~ 6300 1450
 Wire Wire Line
 	6300 1450 6700 1450
-Text GLabel 10100 1150 0    50   Input ~ 0
+Text GLabel 10100 1300 0    50   Input ~ 0
 BMA_CSB
-$Comp
-L Connector:Conn_01x01_Male J?
-U 1 1 60A1DD45
-P 10300 1150
-F 0 "J?" H 10272 1082 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 10272 1173 50  0000 R CNN
-F 2 "" H 10300 1150 50  0001 C CNN
-F 3 "~" H 10300 1150 50  0001 C CNN
-	1    10300 1150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8150 1550 8150 1950
 Wire Wire Line
@@ -789,37 +521,6 @@ NoConn ~ 10350 3350
 Text Notes 9600 4150 0    50   ~ 0
 SWD Debug connector.\nBei nRESET vielleicht noch Tiefpassfilter\num parasitäre Resets zu verhindern.
 $Comp
-L power:GND #PWR0119
-U 1 1 6087C478
-P 3500 900
-F 0 "#PWR0119" H 3500 650 50  0001 C CNN
-F 1 "GND" H 3505 727 50  0000 C CNN
-F 2 "" H 3500 900 50  0001 C CNN
-F 3 "" H 3500 900 50  0001 C CNN
-	1    3500 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 900  3500 800 
-Wire Wire Line
-	3500 800  3600 800 
-Wire Wire Line
-	3600 700  3500 700 
-Wire Wire Line
-	3500 700  3500 800 
-Connection ~ 3500 800 
-$Comp
-L power:+3V0 #PWR0120
-U 1 1 60888C14
-P 5200 2350
-F 0 "#PWR0120" H 5200 2200 50  0001 C CNN
-F 1 "+3V0" H 5215 2523 50  0000 C CNN
-F 2 "" H 5200 2350 50  0001 C CNN
-F 3 "" H 5200 2350 50  0001 C CNN
-	1    5200 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V0 #PWR0121
 U 1 1 60889DED
 P 6300 1350
@@ -880,85 +581,54 @@ F1 "ant_module.sch" 50
 $EndSheet
 Wire Notes Line
 	500  2550 9300 2550
-Text Notes 3600 600  0    50   ~ 0
-D0, D1 low and D2 high for 3V0
-Wire Wire Line
-	3100 1700 3150 1700
-Wire Wire Line
-	3100 1500 3100 1700
-Wire Wire Line
-	3100 1500 3150 1500
-Wire Wire Line
-	3100 1300 3150 1300
-Connection ~ 3100 1500
-Wire Wire Line
-	3100 1500 3100 1300
-Text GLabel 3150 1300 2    50   Input ~ 0
-D2
-Text GLabel 3150 1700 2    50   Input ~ 0
-SW
-Wire Wire Line
-	3050 1500 3100 1500
-Wire Wire Line
-	2550 1500 2650 1500
-$Comp
-L pspice:DIODE D?
-U 1 1 60989DAF
-P 2850 1500
-F 0 "D?" H 2850 1765 50  0000 C CNN
-F 1 "DIODE" H 2850 1674 50  0000 C CNN
-F 2 "" H 2850 1500 50  0001 C CNN
-F 3 "~" H 2850 1500 50  0001 C CNN
-	1    2850 1500
-	1    0    0    -1  
-$EndComp
-Text GLabel 3150 1500 2    50   Input ~ 0
-EN
-$Comp
-L Switch:SW_SPDT SW?
-U 1 1 60934566
-P 2350 1500
-F 0 "SW?" H 2350 1175 50  0000 C CNN
-F 1 "SW_SPDT" H 2350 1266 50  0000 C CNN
-F 2 "" H 2350 1500 50  0001 C CNN
-F 3 "~" H 2350 1500 50  0001 C CNN
-	1    2350 1500
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+BATT #PWR0114
-U 1 1 609372B8
-P 2050 1350
-F 0 "#PWR0114" H 2050 1200 50  0001 C CNN
-F 1 "+BATT" H 2065 1523 50  0000 C CNN
-F 2 "" H 2050 1350 50  0001 C CNN
-F 3 "" H 2050 1350 50  0001 C CNN
-	1    2050 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 609385A7
-P 2050 1650
-F 0 "#PWR0113" H 2050 1400 50  0001 C CNN
-F 1 "GND" H 2055 1477 50  0000 C CNN
-F 2 "" H 2050 1650 50  0001 C CNN
-F 3 "" H 2050 1650 50  0001 C CNN
-	1    2050 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 1650 2050 1600
-Wire Wire Line
-	2050 1600 2150 1600
-Wire Wire Line
-	2150 1400 2050 1400
-Wire Wire Line
-	2050 1400 2050 1350
 $Sheet
-S 6650 4100 1700 1350
+S 1350 750  1700 1350
 U 608A57BF
 F0 "power_circuit" 50
 F1 "power_circuit.sch" 50
 $EndSheet
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 609B0299
+P 10200 700
+F 0 "H?" V 10154 850 50  0000 L CNN
+F 1 "VOUT" V 10245 850 50  0000 L CNN
+F 2 "" H 10200 700 50  0001 C CNN
+F 3 "~" H 10200 700 50  0001 C CNN
+	1    10200 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 609B3292
+P 10200 900
+F 0 "H?" V 10154 1050 50  0000 L CNN
+F 1 "Vout2" V 10245 1050 50  0000 L CNN
+F 2 "" H 10200 900 50  0001 C CNN
+F 3 "~" H 10200 900 50  0001 C CNN
+	1    10200 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 609B3664
+P 10200 1100
+F 0 "H?" V 10154 1250 50  0000 L CNN
+F 1 "PGOOD" V 10245 1250 50  0000 L CNN
+F 2 "" H 10200 1100 50  0001 C CNN
+F 3 "~" H 10200 1100 50  0001 C CNN
+	1    10200 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 609B38D9
+P 10200 1300
+F 0 "H?" V 10154 1450 50  0000 L CNN
+F 1 "BMA_CSB" V 10245 1450 50  0000 L CNN
+F 2 "" H 10200 1300 50  0001 C CNN
+F 3 "~" H 10200 1300 50  0001 C CNN
+	1    10200 1300
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
