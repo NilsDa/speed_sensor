@@ -1,0 +1,44 @@
+                    PART LIST                     
+            ==========================            
+
+Ref.        Description                   Value
+
+C1          Capacitor 0402                C_2U2_0402_X5R_M_6P3VDC       
+C101        Capacitor 0402                C_100N_0402_X5R_K_10          
+C201        Capacitor 0402                C_1N_0402_NP0_J_50            
+C211        Capacitor 0402                C_100N_0402_X5R_K_10          
+C221        Capacitor 0402                C_12P_0402_NP0_J_50           
+C231        Capacitor 0402                C_12P_0402_NP0_J_50           
+C241        Capacitor 0402                C_100N_0402_X5R_K_10          
+C251        Capacitor 0402                C_18P_0402_NP0_J_50           
+C252        Capacitor 0402                C_1P0_0402_NP0_C_50           
+C253        Capacitor 0402                C_1P0_0402_NP0_C_50           
+C261        Capacitor 0402                C_18P_0402_NP0_J_50           
+C262        Capacitor 0402                C_1P0_0402_NP0_C_50           
+C271        Capacitor 0402                C_100N_0402_X5R_K_10          
+C272        Capacitor 0402                C_220P_0402_NP0_J_50          
+C311        Capacitor 0402                C_100N_0402_X5R_K_10          
+C321        Capacitor, 0402               C_15P_0402_NP0_J_50           
+C331        Capacitor, 0402               C_15P_0402_NP0_J_50           
+C391        Capacitor 0402                C_1U_0402_X5R_K_6P3           
+C401        Capacitor 0402                C_1U_0402_X5R_K_6P3           
+C402        Capacitor, 2.4p, 0402, NP0, +/C_2P4_0402_NP0_B_50           
+FM1         Fiducial mark, 1mm metal diameFIDUCIAL_MARK_1MM             
+FM2         Fiducial mark, 1mm metal diameFIDUCIAL_MARK_1MM             
+FM3         Fiducial mark, 1mm metal diameFIDUCIAL_MARK_1MM             
+FM4         Fiducial mark, 1mm metal diameFIDUCIAL_MARK_1MM             
+FM5         Fiducial mark, 1mm metal diameFIDUCIAL_MARK_1MM             
+FM6         Fiducial mark, 1mm metal diameFIDUCIAL_MARK_1MM             
+L1          EMI filter bead, BLM15HG102SN1L_BEAD_102_0402               
+L251        Inductor 0402                 L_2N0_0402_S                  
+L252        Inductor 0402                 L_1N0_0402_S                  
+L253        Inductor 0402                 L_3N0_0402_S                  
+L261        Inductor 0402                 L_2N0_0402_S                  
+P1          SMD pinrow socket, .050 spacinSMD_SOCKET_2x10               
+P2          SMD pinrow socket, .050 spacinSMD_SOCKET_2x10               
+P3          Surface-mount SMA, straight   SMA_SMD                       
+R201        Resistor 0402                 R_2K7_0402_F                  
+R301        Resistor 0402                 R_56K_0402_F                  
+U1          Single chip ANT BLE           CC257X                        
+X1          Epson Toyocom FA128 32 MHz 2x1X_32.000/10/20/60/10          
+X2          Crystal, MC-306 SMD           X_32.768/20/50/40/12          

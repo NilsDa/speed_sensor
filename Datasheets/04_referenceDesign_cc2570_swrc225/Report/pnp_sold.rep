@@ -1,0 +1,11 @@
+PICK AND PLACE COORDINATES
+Tuesday, January 18, 2011
+Reference point is bottom left corner at 1000.00, 1000.00
+Board side: Solder side (bottom)
+Number of components:5     
+FM4,      3447.0000,  2930.0000, 0.000,      FIDUCIAL_MARK_1MM,   
+FM6,      2710.0000,  2062.0000, 0.000,      FIDUCIAL_MARK_1MM,   
+FM5,      2089.0000,  3140.0000, 0.000,      FIDUCIAL_MARK_1MM,   
+P2,       3325.0000,  2590.0000, 180.000,    SMD_SOCKET_2x10,     
+P1,       2125.0000,  2590.0000, 180.000,    SMD_SOCKET_2x10,     
+END OF LIST
