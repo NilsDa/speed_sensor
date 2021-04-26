@@ -417,29 +417,19 @@ Connection ~ 8150 1550
 Text GLabel 6200 1450 0    50   Input ~ 0
 BMA_VDDIO
 Connection ~ 6700 1450
-Text GLabel 6850 1350 0    50   Input ~ 0
-BMA_MOSI
-Text GLabel 7800 1250 2    50   Input ~ 0
-BMA_CSB
 NoConn ~ 7400 1050
 NoConn ~ 6850 1550
 Wire Wire Line
 	6700 1900 6700 1950
-Text GLabel 7300 1050 1    50   Input ~ 0
-BMA_SCK
-Text GLabel 6850 1250 0    50   Input ~ 0
-BMA_MISO
 Connection ~ 6700 1950
 Wire Wire Line
 	6700 1950 6700 2000
 Text GLabel 3800 4250 2    50   Input ~ 0
-BMA_CSB
-Text GLabel 3800 4750 2    50   Input ~ 0
-BMA_SCK
+SPI_01_CSB
 Text GLabel 3800 4850 2    50   Input ~ 0
-BMA_MISO
+SPI_01_MISO
 Text GLabel 3800 5050 2    50   Input ~ 0
-BMA_MOSI
+SPI_01_MOSI
 Wire Notes Line
 	9300 2550 9300 500 
 Text Notes 5400 600  0    50   ~ 0
@@ -457,8 +447,6 @@ Wire Wire Line
 Connection ~ 6300 1450
 Wire Wire Line
 	6300 1450 6700 1450
-Text GLabel 10100 1300 0    50   Input ~ 0
-BMA_CSB
 Wire Wire Line
 	8150 1550 8150 1950
 Wire Wire Line
@@ -625,10 +613,22 @@ L Mechanical:MountingHole_Pad H?
 U 1 1 609B38D9
 P 10200 1300
 F 0 "H?" V 10154 1450 50  0000 L CNN
-F 1 "BMA_CSB" V 10245 1450 50  0000 L CNN
+F 1 "SPI_01_CSB" V 10245 1450 50  0000 L CNN
 F 2 "" H 10200 1300 50  0001 C CNN
 F 3 "~" H 10200 1300 50  0001 C CNN
 	1    10200 1300
 	0    1    1    0   
 $EndComp
+Text GLabel 7800 1250 2    50   Input ~ 0
+SPI_01_CSB
+Text GLabel 10100 1300 0    50   Input ~ 0
+SPI_01_CSB
+Text GLabel 7300 1050 1    50   Input ~ 0
+SPI_01_SCK
+Text GLabel 3800 4750 2    50   Input ~ 0
+SPI_01_SCK
+Text GLabel 6850 1250 0    50   Input ~ 0
+SPI_01_MISO
+Text GLabel 6850 1350 0    50   Input ~ 0
+SPI_01_MOSI
 $EndSCHEMATC
