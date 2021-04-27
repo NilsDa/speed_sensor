@@ -144,39 +144,6 @@ Wire Wire Line
 	2900 2850 2900 4050
 Connection ~ 2900 2850
 $Comp
-L Device:L_Small L?
-U 1 1 60848098
-P 1550 4700
-F 0 "L?" V 1735 4700 50  0000 C CNN
-F 1 "3.3n" V 1644 4700 50  0000 C CNN
-F 2 "" H 1550 4700 50  0001 C CNN
-F 3 "~" H 1550 4700 50  0001 C CNN
-	1    1550 4700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6084886D
-P 1350 4850
-F 0 "C?" H 1442 4896 50  0000 L CNN
-F 1 "1p" H 1442 4805 50  0000 L CNN
-F 2 "" H 1350 4850 50  0001 C CNN
-F 3 "~" H 1350 4850 50  0001 C CNN
-	1    1350 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 60849106
-P 1350 4950
-F 0 "#PWR0105" H 1350 4700 50  0001 C CNN
-F 1 "GND" H 1355 4777 50  0000 C CNN
-F 2 "" H 1350 4950 50  0001 C CNN
-F 3 "" H 1350 4950 50  0001 C CNN
-	1    1350 4950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Crystal_Small Y?
 U 1 1 6084A82A
 P 1650 5750
@@ -326,15 +293,6 @@ Text Notes 550  2650 0    50   ~ 0
 Microcontroller
 Text GLabel 2000 5050 0    50   Input ~ 0
 ANT
-Text GLabel 1250 4700 0    50   Input ~ 0
-ANT
-Wire Wire Line
-	1450 4700 1350 4700
-Wire Wire Line
-	1350 4750 1350 4700
-Connection ~ 1350 4700
-Wire Wire Line
-	1350 4700 1250 4700
 Wire Notes Line
 	5150 2550 5150 7750
 Wire Notes Line
