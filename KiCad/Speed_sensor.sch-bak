@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title ""
-Date ""
-Rev ""
+Title "Speed Sensor"
+Date "2021-04-27"
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -496,7 +496,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 3950 3100 4050
 $Sheet
-S 9300 5150 1200 1000
+S 7450 4700 1200 1000
 U 6087B1AF
 F0 "ant_module" 50
 F1 "ant_module.sch" 50
@@ -595,4 +595,6 @@ Wire Wire Line
 	7300 2000 7300 1800
 Wire Wire Line
 	7400 1800 7400 2000
+Text Notes 7400 5950 0    50   ~ 0
+Hier hab ich noch keine Ahnung \nwat isch da machen muss
 $EndSCHEMATC
