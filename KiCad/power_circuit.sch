@@ -227,7 +227,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 2800 9150 2750
 Text GLabel 8850 3700 1    50   Input ~ 0
-SW
+VIN
 Text GLabel 8850 2500 2    50   Input ~ 0
 D0
 Text GLabel 8850 2400 2    50   Input ~ 0
@@ -306,7 +306,7 @@ Wire Wire Line
 Text GLabel 7850 2900 2    50   Input ~ 0
 D2
 Text GLabel 7850 3300 2    50   Input ~ 0
-SW
+VIN
 $Comp
 L Switch:SW_SPDT SW?
 U 1 1 6091BD9B
@@ -589,36 +589,36 @@ Wire Wire Line
 $Comp
 L Nils_KiCADLibrary:TPS3809X U?
 U 1 1 609D9E73
-P 4850 4150
-F 0 "U?" H 5000 4350 50  0000 R CNN
-F 1 "TPS3809X" H 5250 3950 50  0000 R CNN
-F 2 "" H 4850 4100 50  0001 C CNN
-F 3 "" H 4850 4100 50  0001 C CNN
-	1    4850 4150
+P 4100 4150
+F 0 "U?" H 4250 4350 50  0000 R CNN
+F 1 "TPS3809X" H 4500 3950 50  0000 R CNN
+F 2 "" H 4100 4100 50  0001 C CNN
+F 3 "" H 4100 4100 50  0001 C CNN
+	1    4100 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+BATT #PWR?
 U 1 1 609F1C8D
-P 4850 3900
+P 4100 3900
 AR Path="/609F1C8D" Ref="#PWR?"  Part="1" 
 AR Path="/608A57BF/609F1C8D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4850 3750 50  0001 C CNN
-F 1 "+BATT" H 4865 4073 50  0000 C CNN
-F 2 "" H 4850 3900 50  0001 C CNN
-F 3 "" H 4850 3900 50  0001 C CNN
-	1    4850 3900
+F 0 "#PWR?" H 4100 3750 50  0001 C CNN
+F 1 "+BATT" H 4115 4073 50  0000 C CNN
+F 2 "" H 4100 3900 50  0001 C CNN
+F 3 "" H 4100 3900 50  0001 C CNN
+	1    4100 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 609F4A79
-P 4850 4400
-F 0 "#PWR?" H 4850 4150 50  0001 C CNN
-F 1 "GND" H 4855 4227 50  0000 C CNN
-F 2 "" H 4850 4400 50  0001 C CNN
-F 3 "" H 4850 4400 50  0001 C CNN
-	1    4850 4400
+P 4100 4400
+F 0 "#PWR?" H 4100 4150 50  0001 C CNN
+F 1 "GND" H 4105 4227 50  0000 C CNN
+F 2 "" H 4100 4400 50  0001 C CNN
+F 3 "" H 4100 4400 50  0001 C CNN
+	1    4100 4400
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -627,7 +627,7 @@ Wire Wire Line
 	5150 2000 5150 2900
 Text Notes 5150 2450 0    50   ~ 0
 Hier noch was zum schon\nvor falscher Polarisierung\neinbauen
-Text GLabel 5100 4150 2    50   Input ~ 0
+Text GLabel 4350 4150 2    50   Input ~ 0
 EN
 $Comp
 L power:+BATT #PWR?
@@ -642,4 +642,10 @@ F 3 "" H 6700 2950 50  0001 C CNN
 	1    6700 2950
 	1    0    0    -1  
 $EndComp
+Text Notes 4550 4400 0    50   ~ 0
+EN - high for good battery voltage\nEN - low for low battery voltage
+Text Notes 3050 4800 0    50   ~ 0
+Es fehlt noch eine Visuelle Anzeige\nfür geringe Akku-Spannung (vielleicht LED)
+Text Notes 4450 3950 0    50   ~ 0
+bei EN vielleicht noch großen R\num ströme zu verhindern.
 $EndSCHEMATC
