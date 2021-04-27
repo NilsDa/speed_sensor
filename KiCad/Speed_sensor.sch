@@ -366,11 +366,11 @@ Text GLabel 6100 1500 0    50   Input ~ 0
 BMA_VDDIO
 NoConn ~ 7400 1100
 NoConn ~ 6850 1600
-Text GLabel 3800 4250 2    50   Input ~ 0
+Text GLabel 3800 5550 2    50   Input ~ 0
 SPI_01_CSB
-Text GLabel 3800 4850 2    50   Input ~ 0
+Text GLabel 3800 5650 2    50   Input ~ 0
 SPI_01_MISO
-Text GLabel 3800 5050 2    50   Input ~ 0
+Text GLabel 3800 5850 2    50   Input ~ 0
 SPI_01_MOSI
 Wire Notes Line
 	9300 2550 9300 500 
@@ -436,10 +436,9 @@ Wire Wire Line
 NoConn ~ 10350 3450
 NoConn ~ 9850 3450
 Text GLabel 2000 6350 0    50   Input ~ 0
-nRESET
+~RESET~
 Text GLabel 10350 3550 2    50   Input ~ 0
-nRESET
-NoConn ~ 10350 3350
+~RESET~
 Text Notes 9600 4150 0    50   ~ 0
 SWD Debug connector.\nBei nRESET vielleicht noch Tiefpassfilter\num parasitäre Resets zu verhindern.
 $Comp
@@ -495,12 +494,6 @@ Wire Wire Line
 	2700 3500 2700 4050
 Wire Wire Line
 	3100 3950 3100 4050
-$Sheet
-S 7450 4700 1200 1000
-U 6087B1AF
-F0 "ant_module" 50
-F1 "ant_module.sch" 50
-$EndSheet
 Wire Notes Line
 	500  2550 9300 2550
 $Sheet
@@ -559,7 +552,7 @@ Text GLabel 10100 1300 0    50   Input ~ 0
 SPI_01_CSB
 Text GLabel 7300 1100 1    50   Input ~ 0
 SPI_01_SCK
-Text GLabel 3800 4750 2    50   Input ~ 0
+Text GLabel 3800 5750 2    50   Input ~ 0
 SPI_01_SCK
 Text GLabel 6850 1300 0    50   Input ~ 0
 SPI_01_MISO
@@ -595,6 +588,14 @@ Wire Wire Line
 	7300 2000 7300 1800
 Wire Wire Line
 	7400 1800 7400 2000
-Text Notes 7400 5950 0    50   ~ 0
-Hier hab ich noch keine Ahnung \nwat isch da machen muss
+Text GLabel 3800 6550 2    50   Input ~ 0
+BMA_INT1
+Text GLabel 3800 6450 2    50   Input ~ 0
+BMA_INT2
+Text GLabel 3800 6050 2    50   Input ~ 0
+SWO
+Text GLabel 10350 3350 2    50   Input ~ 0
+SWO
+Text Notes 3850 4300 0    50   ~ 0
+den hier brauch ich!
 $EndSCHEMATC

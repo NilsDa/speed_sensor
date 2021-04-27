@@ -295,17 +295,10 @@ $EndComp
 Text Notes 8600 2250 0    50   ~ 0
 D0, D1 low and D2 high for 3.0V output
 Wire Wire Line
-	7800 3300 7850 3300
-Wire Wire Line
-	7800 3100 7800 3300
-Wire Wire Line
-	7800 2900 7850 2900
-Connection ~ 7800 3100
-Wire Wire Line
-	7800 3100 7800 2900
-Text GLabel 7850 2900 2    50   Input ~ 0
+	8250 2450 8300 2450
+Text GLabel 8300 2450 2    50   Input ~ 0
 D2
-Text GLabel 7850 3300 2    50   Input ~ 0
+Text GLabel 8350 3600 2    50   Input ~ 0
 VIN
 $Comp
 L Switch:SW_SPDT SW?
@@ -686,4 +679,36 @@ Wire Wire Line
 Connection ~ 10100 4100
 Wire Wire Line
 	10100 4100 9900 4100
+$Comp
+L power:+BATT #PWR?
+U 1 1 608C855C
+P 8250 2450
+AR Path="/608C855C" Ref="#PWR?"  Part="1" 
+AR Path="/608A57BF/608C855C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8250 2300 50  0001 C CNN
+F 1 "+BATT" H 8265 2623 50  0000 C CNN
+F 2 "" H 8250 2450 50  0001 C CNN
+F 3 "" H 8250 2450 50  0001 C CNN
+	1    8250 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 3100 2    50   Input ~ 0
+EN
+$Comp
+L power:+BATT #PWR?
+U 1 1 608C8BB8
+P 8250 3500
+AR Path="/608C8BB8" Ref="#PWR?"  Part="1" 
+AR Path="/608A57BF/608C8BB8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8250 3350 50  0001 C CNN
+F 1 "+BATT" H 8265 3673 50  0000 C CNN
+F 2 "" H 8250 3500 50  0001 C CNN
+F 3 "" H 8250 3500 50  0001 C CNN
+	1    8250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 3500 8250 3600
+Wire Wire Line
+	8250 3600 8350 3600
 $EndSCHEMATC

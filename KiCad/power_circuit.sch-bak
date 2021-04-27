@@ -204,7 +204,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 3750 10300 4100
 Wire Wire Line
-	10300 4100 9900 4100
+	10300 4100 10100 4100
 Connection ~ 9900 4100
 Wire Wire Line
 	10300 4100 10450 4100
@@ -646,6 +646,44 @@ Text Notes 4550 4400 0    50   ~ 0
 EN - high for good battery voltage\nEN - low for low battery voltage
 Text Notes 3050 4800 0    50   ~ 0
 Es fehlt noch eine Visuelle Anzeige\nfür geringe Akku-Spannung (vielleicht LED)
-Text Notes 4450 3950 0    50   ~ 0
-bei EN vielleicht noch großen R\num ströme zu verhindern.
+Text Notes 4350 4050 0    50   ~ 0
+bei EN vielleicht noch großen R\num ströme zu verhindern.\nNochmal nachlesen ob\ndas nötig ist. Glaube eig nicht.
+$Comp
+L Device:LED_Small D?
+U 1 1 608B6AC0
+P 10100 4350
+F 0 "D?" V 10146 4280 50  0000 R CNN
+F 1 "Yellow (2V)" V 10055 4280 50  0000 R CNN
+F 2 "" V 10100 4350 50  0001 C CNN
+F 3 "~" V 10100 4350 50  0001 C CNN
+	1    10100 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 608B6DF2
+P 10100 4550
+F 0 "R?" H 10159 4596 50  0000 L CNN
+F 1 "200" H 10159 4505 50  0000 L CNN
+F 2 "" H 10100 4550 50  0001 C CNN
+F 3 "~" H 10100 4550 50  0001 C CNN
+	1    10100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608B722A
+P 10100 4650
+F 0 "#PWR?" H 10100 4400 50  0001 C CNN
+F 1 "GND" H 10105 4477 50  0000 C CNN
+F 2 "" H 10100 4650 50  0001 C CNN
+F 3 "" H 10100 4650 50  0001 C CNN
+	1    10100 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 4250 10100 4100
+Connection ~ 10100 4100
+Wire Wire Line
+	10100 4100 9900 4100
 $EndSCHEMATC
