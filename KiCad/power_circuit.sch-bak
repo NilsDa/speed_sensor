@@ -299,8 +299,6 @@ Wire Wire Line
 Wire Wire Line
 	7800 3100 7800 3300
 Wire Wire Line
-	7800 3100 7850 3100
-Wire Wire Line
 	7800 2900 7850 2900
 Connection ~ 7800 3100
 Wire Wire Line
@@ -309,21 +307,6 @@ Text GLabel 7850 2900 2    50   Input ~ 0
 D2
 Text GLabel 7850 3300 2    50   Input ~ 0
 SW
-$Comp
-L pspice:DIODE D?
-U 1 1 6091BD94
-P 5150 2400
-AR Path="/6091BD94" Ref="D?"  Part="1" 
-AR Path="/608A57BF/6091BD94" Ref="D?"  Part="1" 
-F 0 "D?" H 5150 2665 50  0000 C CNN
-F 1 "DIODE" H 5150 2574 50  0000 C CNN
-F 2 "" H 5150 2400 50  0001 C CNN
-F 3 "~" H 5150 2400 50  0001 C CNN
-	1    5150 2400
-	0    1    1    0   
-$EndComp
-Text GLabel 7850 3100 2    50   Input ~ 0
-EN
 $Comp
 L Switch:SW_SPDT SW?
 U 1 1 6091BD9B
@@ -542,11 +525,7 @@ $EndComp
 Connection ~ 4850 2900
 Wire Wire Line
 	4850 2900 5150 2900
-Wire Wire Line
-	5150 2600 5150 2900
 Connection ~ 5150 2900
-Wire Wire Line
-	5150 2200 5150 2000
 Wire Notes Line
 	500  1500 11200 1500
 Wire Notes Line
@@ -610,102 +589,57 @@ Wire Wire Line
 $Comp
 L Nils_KiCADLibrary:TPS3809X U?
 U 1 1 609D9E73
-P 3350 4300
-F 0 "U?" H 3500 4500 50  0000 R CNN
-F 1 "TPS3809X" H 3750 4100 50  0000 R CNN
-F 2 "" H 3350 4250 50  0001 C CNN
-F 3 "" H 3350 4250 50  0001 C CNN
-	1    3350 4300
+P 4850 4150
+F 0 "U?" H 5000 4350 50  0000 R CNN
+F 1 "TPS3809X" H 5250 3950 50  0000 R CNN
+F 2 "" H 4850 4100 50  0001 C CNN
+F 3 "" H 4850 4100 50  0001 C CNN
+	1    4850 4150
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 4300 2    50   Input ~ 0
-BATT_SUPERVISED
-Text GLabel 6700 2950 1    50   Input ~ 0
-BATT_SUPERVISED
 $Comp
 L power:+BATT #PWR?
 U 1 1 609F1C8D
-P 3350 4050
+P 4850 3900
 AR Path="/609F1C8D" Ref="#PWR?"  Part="1" 
 AR Path="/608A57BF/609F1C8D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3350 3900 50  0001 C CNN
-F 1 "+BATT" H 3365 4223 50  0000 C CNN
-F 2 "" H 3350 4050 50  0001 C CNN
-F 3 "" H 3350 4050 50  0001 C CNN
-	1    3350 4050
+F 0 "#PWR?" H 4850 3750 50  0001 C CNN
+F 1 "+BATT" H 4865 4073 50  0000 C CNN
+F 2 "" H 4850 3900 50  0001 C CNN
+F 3 "" H 4850 3900 50  0001 C CNN
+	1    4850 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 609F4A79
-P 3350 4550
-F 0 "#PWR?" H 3350 4300 50  0001 C CNN
-F 1 "GND" H 3355 4377 50  0000 C CNN
-F 2 "" H 3350 4550 50  0001 C CNN
-F 3 "" H 3350 4550 50  0001 C CNN
-	1    3350 4550
+P 4850 4400
+F 0 "#PWR?" H 4850 4150 50  0001 C CNN
+F 1 "GND" H 4855 4227 50  0000 C CNN
+F 2 "" H 4850 4400 50  0001 C CNN
+F 3 "" H 4850 4400 50  0001 C CNN
+	1    4850 4400
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	500  5000 11200 5000
+Wire Wire Line
+	5150 2000 5150 2900
+Text Notes 5150 2450 0    50   ~ 0
+Hier noch was zum schon\nvor falscher Polarisierung\neinbauen
+Text GLabel 5100 4150 2    50   Input ~ 0
+EN
 $Comp
 L power:+BATT #PWR?
-U 1 1 60A23FBC
-P 4300 3850
-AR Path="/60A23FBC" Ref="#PWR?"  Part="1" 
-AR Path="/608A57BF/60A23FBC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4300 3700 50  0001 C CNN
-F 1 "+BATT" H 4315 4023 50  0000 C CNN
-F 2 "" H 4300 3850 50  0001 C CNN
-F 3 "" H 4300 3850 50  0001 C CNN
-	1    4300 3850
+U 1 1 608829DA
+P 6700 2950
+AR Path="/608829DA" Ref="#PWR?"  Part="1" 
+AR Path="/608A57BF/608829DA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6700 2800 50  0001 C CNN
+F 1 "+BATT" H 6715 3123 50  0000 C CNN
+F 2 "" H 6700 2950 50  0001 C CNN
+F 3 "" H 6700 2950 50  0001 C CNN
+	1    6700 2950
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60A2835B
-P 4300 4750
-F 0 "#PWR?" H 4300 4500 50  0001 C CNN
-F 1 "GND" H 4305 4577 50  0000 C CNN
-F 2 "" H 4300 4750 50  0001 C CNN
-F 3 "" H 4300 4750 50  0001 C CNN
-	1    4300 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:FDN340P Q?
-U 1 1 60A31F43
-P 4200 4050
-F 0 "Q?" H 4404 4096 50  0000 L CNN
-F 1 "FDN340P" H 4404 4005 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4400 3975 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF" H 4200 4050 50  0001 L CNN
-	1    4200 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:BSN20 Q?
-U 1 1 60A332F7
-P 4200 4550
-F 0 "Q?" H 4405 4596 50  0000 L CNN
-F 1 "BSN20" H 4405 4505 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4400 4475 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/ds31898.pdf" H 4200 4550 50  0001 L CNN
-	1    4200 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 4300 4000 4300
-Wire Wire Line
-	4000 4300 4000 4050
-Wire Wire Line
-	4000 4300 4000 4550
-Connection ~ 4000 4300
-Wire Wire Line
-	4300 4250 4300 4300
-Wire Wire Line
-	4300 4300 4800 4300
-Connection ~ 4300 4300
-Wire Wire Line
-	4300 4300 4300 4350
 $EndSCHEMATC
