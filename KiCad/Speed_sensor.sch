@@ -1211,8 +1211,6 @@ Text GLabel 4050 4750 2    50   Input ~ 0
 AIN2
 Text GLabel 4050 4850 2    50   Input ~ 0
 AIN3
-Text Notes 4300 4750 0    25   ~ 0
-AIN0-7 werden erstmal nicht verwenden, \nsollten aber mit pads versehen werden \num flexibel Analoge Inputs zu ermöglichen.
 Text GLabel 2000 4450 2    50   Input ~ 0
 XL1
 Text GLabel 2000 4750 2    50   Input ~ 0
@@ -1792,4 +1790,20 @@ Text GLabel 9200 4650 0    50   Input ~ 0
 AIN6
 Text GLabel 9200 4800 0    50   Input ~ 0
 AIN7
+NoConn ~ 4050 4950
+NoConn ~ 4050 5250
+NoConn ~ 4050 5350
+NoConn ~ 4050 5450
+NoConn ~ 4050 5550
+NoConn ~ 4050 6050
+NoConn ~ 4050 6250
+NoConn ~ 4050 6350
+NoConn ~ 4050 6450
+NoConn ~ 4050 6550
+NoConn ~ 4050 6650
+NoConn ~ 4050 6750
+NoConn ~ 4050 6850
+NoConn ~ 4050 6950
+Text Notes 1750 2450 0    157  Italic 31
+Next step: Choose all the correct footprints!!!
 $EndSCHEMATC
