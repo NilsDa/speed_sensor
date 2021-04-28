@@ -901,120 +901,6 @@ Wire Wire Line
 	10350 1550 10350 1500
 Wire Wire Line
 	10350 1500 10300 1500
-Text GLabel 10450 2150 0    50   Input ~ 0
-BUCK_PGOOD
-Text GLabel 10450 2350 0    50   Input ~ 0
-BUCK_SW
-Text GLabel 10450 2550 0    50   Input ~ 0
-BUCK_VOUT
-Text GLabel 10450 2750 0    50   Input ~ 0
-BUCK_GND
-Text GLabel 10450 2950 0    50   Input ~ 0
-BUCK_Vout2
-$Comp
-L Device:R_Small R?
-U 1 1 60A8A44F
-P 10650 2150
-AR Path="/608A57BF/60A8A44F" Ref="R?"  Part="1" 
-AR Path="/60A8A44F" Ref="R?"  Part="1" 
-F 0 "R?" H 10709 2196 50  0000 L CNN
-F 1 "1M" H 10709 2105 50  0000 L CNN
-F 2 "" H 10650 2150 50  0001 C CNN
-F 3 "~" H 10650 2150 50  0001 C CNN
-	1    10650 2150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60A8A886
-P 10950 2550
-AR Path="/608A57BF/60A8A886" Ref="C?"  Part="1" 
-AR Path="/60A8A886" Ref="C?"  Part="1" 
-F 0 "C?" H 11042 2596 50  0000 L CNN
-F 1 "10u" H 11042 2505 50  0000 L CNN
-F 2 "" H 10950 2550 50  0001 C CNN
-F 3 "~" H 10950 2550 50  0001 C CNN
-	1    10950 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60A8ACD6
-P 10600 2850
-AR Path="/608A57BF/60A8ACD6" Ref="C?"  Part="1" 
-AR Path="/60A8ACD6" Ref="C?"  Part="1" 
-F 0 "C?" H 10692 2896 50  0000 L CNN
-F 1 "10u" H 10692 2805 50  0000 L CNN
-F 2 "" H 10600 2850 50  0001 C CNN
-F 3 "~" H 10600 2850 50  0001 C CNN
-	1    10600 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L_Small L?
-U 1 1 60A8B1B5
-P 10650 2350
-F 0 "L?" V 10700 2350 50  0000 C CNN
-F 1 "2,2u" V 10600 2350 50  0000 C CNN
-F 2 "" H 10650 2350 50  0001 C CNN
-F 3 "~" H 10650 2350 50  0001 C CNN
-	1    10650 2350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10550 2350 10450 2350
-Wire Wire Line
-	10800 2350 10750 2350
-$Comp
-L power:GND #PWR?
-U 1 1 60AA1F3D
-P 10950 2750
-AR Path="/608A57BF/60AA1F3D" Ref="#PWR?"  Part="1" 
-AR Path="/60AA1F3D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10950 2500 50  0001 C CNN
-F 1 "GND" H 10955 2577 50  0000 C CNN
-F 2 "" H 10950 2750 50  0001 C CNN
-F 3 "" H 10950 2750 50  0001 C CNN
-	1    10950 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10450 2550 10800 2550
-Wire Wire Line
-	10800 2550 10800 2350
-Connection ~ 10800 2350
-Wire Wire Line
-	10800 2350 10950 2350
-Wire Wire Line
-	10950 2350 10950 2450
-Wire Wire Line
-	10600 2950 10450 2950
-Wire Wire Line
-	10450 2750 10600 2750
-Wire Wire Line
-	10600 2750 10950 2750
-Wire Wire Line
-	10950 2750 10950 2650
-Connection ~ 10600 2750
-Connection ~ 10950 2750
-Wire Wire Line
-	10450 2150 10550 2150
-Wire Wire Line
-	10750 2150 10800 2150
-Wire Wire Line
-	10800 2150 10800 2350
-$Comp
-L power:+3V0 #PWR?
-U 1 1 60B121B5
-P 10950 2350
-F 0 "#PWR?" H 10950 2200 50  0001 C CNN
-F 1 "+3V0" H 10950 2500 50  0000 C CNN
-F 2 "" H 10950 2350 50  0001 C CNN
-F 3 "" H 10950 2350 50  0001 C CNN
-	1    10950 2350
-	1    0    0    -1  
-$EndComp
-Connection ~ 10950 2350
 Wire Wire Line
 	3150 3100 3150 4150
 Connection ~ 3150 3100
@@ -1653,11 +1539,125 @@ SPI_01_CS
 Wire Notes Line
 	5950 3600 11200 3600
 Wire Notes Line
-	8850 600  8850 3600
-Wire Notes Line
 	8850 1950 500  1950
 Wire Notes Line
 	8500 3600 8500 5200
 Wire Notes Line
 	8500 5200 5950 5200
+Wire Notes Line
+	8850 1950 8850 3600
+Wire Notes Line
+	8850 600  8850 1850
+Text GLabel 10550 2550 1    50   Input ~ 0
+BUCK_PGOOD
+Text GLabel 10750 2550 1    50   Input ~ 0
+BUCK_SW
+Text GLabel 10400 2750 1    50   Input ~ 0
+BUCK_VOUT
+Text GLabel 10000 2750 1    50   Input ~ 0
+BUCK_GND
+Text GLabel 10250 2750 1    50   Input ~ 0
+BUCK_Vout2
+$Comp
+L Device:C_Small C?
+U 1 1 60C8F999
+P 10400 2900
+AR Path="/608A57BF/60C8F999" Ref="C?"  Part="1" 
+AR Path="/60C8F999" Ref="C?"  Part="1" 
+F 0 "C?" H 10450 2950 50  0000 L CNN
+F 1 "10u" H 10450 2850 50  0000 L CNN
+F 2 "" H 10400 2900 50  0001 C CNN
+F 3 "~" H 10400 2900 50  0001 C CNN
+	1    10400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60C90235
+P 10250 2900
+AR Path="/608A57BF/60C90235" Ref="C?"  Part="1" 
+AR Path="/60C90235" Ref="C?"  Part="1" 
+F 0 "C?" H 10100 2950 50  0000 L CNN
+F 1 "10u" H 10100 2850 50  0000 L CNN
+F 2 "" H 10250 2900 50  0001 C CNN
+F 3 "~" H 10250 2900 50  0001 C CNN
+	1    10250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 2750 10250 2800
+Wire Wire Line
+	10400 2750 10400 2800
+$Comp
+L power:GND #PWR?
+U 1 1 60CA0A68
+P 10250 3050
+AR Path="/608A57BF/60CA0A68" Ref="#PWR?"  Part="1" 
+AR Path="/60CA0A68" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10250 2800 50  0001 C CNN
+F 1 "GND" H 10255 2877 50  0000 C CNN
+F 2 "" H 10250 3050 50  0001 C CNN
+F 3 "" H 10250 3050 50  0001 C CNN
+	1    10250 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 3050 10250 3000
+Wire Wire Line
+	10400 3000 10250 3000
+Connection ~ 10250 3000
+$Comp
+L power:+3V0 #PWR?
+U 1 1 60CABFF4
+P 11050 2750
+F 0 "#PWR?" H 11050 2600 50  0001 C CNN
+F 1 "+3V0" H 11050 2900 50  0000 C CNN
+F 2 "" H 11050 2750 50  0001 C CNN
+F 3 "" H 11050 2750 50  0001 C CNN
+	1    11050 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11050 2750 11050 2800
+Connection ~ 10400 2800
+Wire Wire Line
+	10000 2750 10000 3000
+Wire Wire Line
+	10000 3000 10250 3000
+$Comp
+L Device:L_Small L?
+U 1 1 60CCE7A3
+P 10750 2650
+F 0 "L?" H 10850 2700 50  0000 C CNN
+F 1 "2,2u" H 10850 2600 50  0000 C CNN
+F 2 "" H 10750 2650 50  0001 C CNN
+F 3 "~" H 10750 2650 50  0001 C CNN
+	1    10750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60CDA7DE
+P 10550 2650
+AR Path="/608A57BF/60CDA7DE" Ref="R?"  Part="1" 
+AR Path="/60CDA7DE" Ref="R?"  Part="1" 
+F 0 "R?" H 10609 2696 50  0000 L CNN
+F 1 "1M" H 10609 2605 50  0000 L CNN
+F 2 "" H 10550 2650 50  0001 C CNN
+F 3 "~" H 10550 2650 50  0001 C CNN
+	1    10550 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 2750 10750 2800
+Wire Wire Line
+	10550 2750 10550 2800
+Wire Wire Line
+	10400 2800 10550 2800
+Connection ~ 10550 2800
+Connection ~ 10750 2800
+Wire Wire Line
+	10550 2800 10750 2800
+Wire Wire Line
+	10750 2800 11050 2800
 $EndSCHEMATC
