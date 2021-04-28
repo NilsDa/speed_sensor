@@ -235,8 +235,6 @@ Wire Wire Line
 Connection ~ 2750 3100
 Text Notes 600  2900 0    50   ~ 0
 Microcontroller
-Text GLabel 1700 5150 0    50   Input ~ 0
-ANT
 Text GLabel 10250 4200 0    50   Input ~ 0
 BUCK_VOUT
 Text GLabel 10250 4400 0    50   Input ~ 0
@@ -381,9 +379,9 @@ Text GLabel 4050 6150 2    50   Input ~ 0
 SWO
 Text GLabel 10400 5650 2    50   Input ~ 0
 SWO
-Text GLabel 9600 1500 0    50   Input ~ 0
+Text GLabel 9700 1500 0    50   Input ~ 0
 D2
-Text GLabel 9600 900  0    50   Input ~ 0
+Text GLabel 9700 900  0    50   Input ~ 0
 EN
 $Comp
 L Connector:USB_B_Micro J?
@@ -489,53 +487,53 @@ Hier noch was zum Schutz\nvor falscher Polarisierung\neinbauen (direkt an + Akku
 $Comp
 L Device:LED_Small D?
 U 1 1 6089BF8D
-P 9250 2500
+P 9250 2650
 AR Path="/608A57BF/6089BF8D" Ref="D?"  Part="1" 
 AR Path="/6089BF8D" Ref="D?"  Part="1" 
-F 0 "D?" V 9296 2430 50  0000 R CNN
-F 1 "Yellow (2V)" V 9200 2450 50  0000 R CNN
-F 2 "" V 9250 2500 50  0001 C CNN
-F 3 "~" V 9250 2500 50  0001 C CNN
-	1    9250 2500
+F 0 "D?" V 9296 2580 50  0000 R CNN
+F 1 "Yellow (2V)" V 9200 2600 50  0000 R CNN
+F 2 "" V 9250 2650 50  0001 C CNN
+F 3 "~" V 9250 2650 50  0001 C CNN
+	1    9250 2650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 6089BF93
-P 9250 2700
+P 9250 2850
 AR Path="/608A57BF/6089BF93" Ref="R?"  Part="1" 
 AR Path="/6089BF93" Ref="R?"  Part="1" 
-F 0 "R?" H 9309 2746 50  0000 L CNN
-F 1 "200" H 9309 2655 50  0000 L CNN
-F 2 "" H 9250 2700 50  0001 C CNN
-F 3 "~" H 9250 2700 50  0001 C CNN
-	1    9250 2700
+F 0 "R?" H 9309 2896 50  0000 L CNN
+F 1 "200" H 9309 2805 50  0000 L CNN
+F 2 "" H 9250 2850 50  0001 C CNN
+F 3 "~" H 9250 2850 50  0001 C CNN
+	1    9250 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6089BF99
-P 9250 2800
+P 9250 2950
 AR Path="/608A57BF/6089BF99" Ref="#PWR?"  Part="1" 
 AR Path="/6089BF99" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9250 2550 50  0001 C CNN
-F 1 "GND" H 9255 2627 50  0000 C CNN
-F 2 "" H 9250 2800 50  0001 C CNN
-F 3 "" H 9250 2800 50  0001 C CNN
-	1    9250 2800
+F 0 "#PWR?" H 9250 2700 50  0001 C CNN
+F 1 "GND" H 9255 2777 50  0000 C CNN
+F 2 "" H 9250 2950 50  0001 C CNN
+F 3 "" H 9250 2950 50  0001 C CNN
+	1    9250 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+BATT #PWR?
 U 1 1 6089BFA9
-P 9300 1000
+P 9400 1000
 AR Path="/6089BFA9" Ref="#PWR?"  Part="1" 
 AR Path="/608A57BF/6089BFA9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9300 850 50  0001 C CNN
-F 1 "+BATT" H 9315 1173 50  0000 C CNN
-F 2 "" H 9300 1000 50  0001 C CNN
-F 3 "" H 9300 1000 50  0001 C CNN
-	1    9300 1000
+F 0 "#PWR?" H 9400 850 50  0001 C CNN
+F 1 "+BATT" H 9415 1173 50  0000 C CNN
+F 2 "" H 9400 1000 50  0001 C CNN
+F 3 "" H 9400 1000 50  0001 C CNN
+	1    9400 1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -713,14 +711,14 @@ Wire Wire Line
 $Comp
 L Nils_KiCADLibrary:ST1PS02 U?
 U 1 1 609A8A46
-P 9950 1200
+P 10050 1200
 AR Path="/609A8A46" Ref="U?"  Part="1" 
 AR Path="/608A57BF/609A8A46" Ref="U?"  Part="1" 
-F 0 "U?" H 9800 1600 50  0000 L CNN
-F 1 "ST1PS02" H 9800 800 50  0000 L CNN
-F 2 "" H 10050 1100 50  0001 C CNN
-F 3 "" H 10050 1100 50  0001 C CNN
-	1    9950 1200
+F 0 "U?" H 9900 1600 50  0000 L CNN
+F 1 "ST1PS02" H 9900 800 50  0000 L CNN
+F 2 "" H 10150 1100 50  0001 C CNN
+F 3 "" H 10150 1100 50  0001 C CNN
+	1    10050 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -787,41 +785,41 @@ Wire Wire Line
 Connection ~ 6650 1400
 Text Notes 8950 600  0    50   ~ 0
 Buck converter
-Text GLabel 9300 1150 3    50   Input ~ 0
+Text GLabel 9400 1150 3    50   Input ~ 0
 D2
 $Comp
 L power:GND #PWR?
 U 1 1 609EC4A9
-P 9400 1550
+P 9500 1550
 AR Path="/608A57BF/609EC4A9" Ref="#PWR?"  Part="1" 
 AR Path="/609EC4A9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9400 1300 50  0001 C CNN
-F 1 "GND" H 9405 1377 50  0000 C CNN
-F 2 "" H 9400 1550 50  0001 C CNN
-F 3 "" H 9400 1550 50  0001 C CNN
-	1    9400 1550
+F 0 "#PWR?" H 9500 1300 50  0001 C CNN
+F 1 "GND" H 9505 1377 50  0000 C CNN
+F 2 "" H 9500 1550 50  0001 C CNN
+F 3 "" H 9500 1550 50  0001 C CNN
+	1    9500 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9400 1400 9600 1400
+	9500 1400 9700 1400
 Wire Wire Line
-	9400 1300 9400 1400
-Connection ~ 9400 1400
+	9500 1300 9500 1400
+Connection ~ 9500 1400
 Wire Wire Line
-	9400 1400 9400 1550
-Text GLabel 10300 1100 2    50   Input ~ 0
+	9500 1400 9500 1550
+Text GLabel 10400 1100 2    50   Input ~ 0
 BUCK_VOUT
-Text GLabel 9250 2400 1    50   Input ~ 0
+Text GLabel 9250 2550 1    50   Input ~ 0
 BUCK_VOUT
 Wire Wire Line
-	9400 1300 9600 1300
+	9500 1300 9700 1300
 Wire Wire Line
-	9300 1000 9300 1100
+	9400 1000 9400 1100
 Wire Wire Line
-	9300 1100 9600 1100
-Connection ~ 9300 1100
+	9400 1100 9700 1100
+Connection ~ 9400 1100
 Wire Wire Line
-	9300 1100 9300 1150
+	9400 1100 9400 1150
 $Comp
 L Device:C_Small C?
 U 1 1 60A48461
@@ -861,46 +859,46 @@ F 3 "" H 9000 1250 50  0001 C CNN
 	1    9000 1250
 	1    0    0    -1  
 $EndComp
-Text GLabel 10300 900  2    50   Input ~ 0
+Text GLabel 10400 900  2    50   Input ~ 0
 BUCK_PGOOD
-Text GLabel 10300 1000 2    50   Input ~ 0
+Text GLabel 10400 1000 2    50   Input ~ 0
 BUCK_SW
-Text GLabel 10300 1200 2    50   Input ~ 0
+Text GLabel 10400 1200 2    50   Input ~ 0
 BUCK_GND
-Text GLabel 10300 1300 2    50   Input ~ 0
+Text GLabel 10400 1300 2    50   Input ~ 0
 BUCK_Vout2
-Text GLabel 10300 1400 2    50   Input ~ 0
+Text GLabel 10400 1400 2    50   Input ~ 0
 BUCK_AUX
 $Comp
 L Device:R_Small R?
 U 1 1 60A65878
-P 10350 1650
+P 10450 1650
 AR Path="/608A57BF/60A65878" Ref="R?"  Part="1" 
 AR Path="/60A65878" Ref="R?"  Part="1" 
-F 0 "R?" H 10409 1696 50  0000 L CNN
-F 1 "0" H 10409 1605 50  0000 L CNN
-F 2 "" H 10350 1650 50  0001 C CNN
-F 3 "~" H 10350 1650 50  0001 C CNN
-	1    10350 1650
+F 0 "R?" H 10509 1696 50  0000 L CNN
+F 1 "0" H 10509 1605 50  0000 L CNN
+F 2 "" H 10450 1650 50  0001 C CNN
+F 3 "~" H 10450 1650 50  0001 C CNN
+	1    10450 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60A65B79
-P 10350 1750
+P 10450 1750
 AR Path="/608A57BF/60A65B79" Ref="#PWR?"  Part="1" 
 AR Path="/60A65B79" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10350 1500 50  0001 C CNN
-F 1 "GND" H 10355 1577 50  0000 C CNN
-F 2 "" H 10350 1750 50  0001 C CNN
-F 3 "" H 10350 1750 50  0001 C CNN
-	1    10350 1750
+F 0 "#PWR?" H 10450 1500 50  0001 C CNN
+F 1 "GND" H 10455 1577 50  0000 C CNN
+F 2 "" H 10450 1750 50  0001 C CNN
+F 3 "" H 10450 1750 50  0001 C CNN
+	1    10450 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10350 1550 10350 1500
+	10450 1550 10450 1500
 Wire Wire Line
-	10350 1500 10300 1500
+	10450 1500 10400 1500
 Wire Wire Line
 	3150 3100 3150 4150
 Connection ~ 3150 3100
@@ -1554,7 +1552,7 @@ Text GLabel 10750 2550 1    50   Input ~ 0
 BUCK_SW
 Text GLabel 10400 2750 1    50   Input ~ 0
 BUCK_VOUT
-Text GLabel 10000 2750 1    50   Input ~ 0
+Text GLabel 10050 2750 1    50   Input ~ 0
 BUCK_GND
 Text GLabel 10250 2750 1    50   Input ~ 0
 BUCK_Vout2
@@ -1621,9 +1619,7 @@ Wire Wire Line
 	11050 2750 11050 2800
 Connection ~ 10400 2800
 Wire Wire Line
-	10000 2750 10000 3000
-Wire Wire Line
-	10000 3000 10250 3000
+	10050 2750 10050 3000
 $Comp
 L Device:L_Small L?
 U 1 1 60CCE7A3
@@ -1660,4 +1656,28 @@ Wire Wire Line
 	10550 2800 10750 2800
 Wire Wire Line
 	10750 2800 11050 2800
+Connection ~ 10050 3000
+Wire Wire Line
+	10050 3000 10250 3000
+Text GLabel 9900 2750 1    50   Input ~ 0
+BUCK_AUX
+Wire Wire Line
+	9900 2750 9900 3000
+Wire Wire Line
+	9900 3000 10050 3000
+$Comp
+L Device:Antenna AE?
+U 1 1 60D47EFA
+P 850 4900
+F 0 "AE?" H 900 4850 50  0000 L CNN
+F 1 "Antenna" H 900 4750 50  0000 L CNN
+F 2 "" H 850 4900 50  0001 C CNN
+F 3 "~" H 850 4900 50  0001 C CNN
+	1    850  4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5150 850  5150
+Wire Wire Line
+	850  5150 850  5100
 $EndSCHEMATC
