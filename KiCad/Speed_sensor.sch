@@ -675,24 +675,11 @@ F 3 "" H 10150 1100 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C_Small C?
-U 1 1 609A977E
-P 6500 1300
-AR Path="/608A57BF/609A977E" Ref="C?"  Part="1" 
-AR Path="/609A977E" Ref="C3"  Part="1" 
-F 0 "C3" H 6350 1350 50  0000 L CNN
-F 1 "1u" H 6350 1250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6500 1300 50  0001 C CNN
-F 3 "~" H 6500 1300 50  0001 C CNN
-	1    6500 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 609A9B57
 P 6650 1300
 AR Path="/608A57BF/609A9B57" Ref="C?"  Part="1" 
-AR Path="/609A9B57" Ref="C4"  Part="1" 
-F 0 "C4" H 6742 1346 50  0000 L CNN
+AR Path="/609A9B57" Ref="C3"  Part="1" 
+F 0 "C3" H 6742 1346 50  0000 L CNN
 F 1 "100n" H 6742 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6650 1300 50  0001 C CNN
 F 3 "~" H 6650 1300 50  0001 C CNN
@@ -726,15 +713,9 @@ F 3 "" H 6650 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 1200 6650 1200
-Wire Wire Line
 	6650 1200 6650 1100
-Connection ~ 6650 1200
-Wire Wire Line
-	6500 1400 6650 1400
 Wire Wire Line
 	6650 1400 6650 1500
-Connection ~ 6650 1400
 Text Notes 8950 600  0    50   ~ 0
 Buck converter
 Text GLabel 9400 1150 3    50   Input ~ 0
@@ -777,8 +758,8 @@ L Device:C_Small C?
 U 1 1 60A48461
 P 9000 1150
 AR Path="/608A57BF/60A48461" Ref="C?"  Part="1" 
-AR Path="/60A48461" Ref="C5"  Part="1" 
-F 0 "C5" H 9092 1196 50  0000 L CNN
+AR Path="/60A48461" Ref="C4"  Part="1" 
+F 0 "C4" H 9092 1196 50  0000 L CNN
 F 1 "10u" H 9092 1105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9000 1150 50  0001 C CNN
 F 3 "~" H 9000 1150 50  0001 C CNN
@@ -1921,4 +1902,6 @@ Wire Wire Line
 	850  5000 850  5150
 Wire Wire Line
 	850  5150 1700 5150
+Text Notes 10550 1800 0    25   ~ 0
+R10 kann evtl. entfernt werden.
 $EndSCHEMATC

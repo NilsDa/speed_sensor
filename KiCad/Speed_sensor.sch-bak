@@ -56,7 +56,7 @@ U 1 1 6084B7A2
 P 3150 5850
 F 0 "U4" H 3850 7550 50  0000 C CNN
 F 1 "nRF52832-QFxx" H 3550 4200 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm" H 3150 3750 50  0001 C CNN
+F 2 "myparts:QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_Handsolder" H 3150 3750 50  0001 C CNN
 F 3 "http://infocenter.nordicsemi.com/pdf/nRF52832_PS_v1.4.pdf" H 2650 6050 50  0001 C CNN
 	1    3150 5850
 	1    0    0    -1  
@@ -675,24 +675,11 @@ F 3 "" H 10150 1100 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C_Small C?
-U 1 1 609A977E
-P 6500 1300
-AR Path="/608A57BF/609A977E" Ref="C?"  Part="1" 
-AR Path="/609A977E" Ref="C3"  Part="1" 
-F 0 "C3" H 6350 1350 50  0000 L CNN
-F 1 "1u" H 6350 1250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6500 1300 50  0001 C CNN
-F 3 "~" H 6500 1300 50  0001 C CNN
-	1    6500 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 609A9B57
 P 6650 1300
 AR Path="/608A57BF/609A9B57" Ref="C?"  Part="1" 
-AR Path="/609A9B57" Ref="C4"  Part="1" 
-F 0 "C4" H 6742 1346 50  0000 L CNN
+AR Path="/609A9B57" Ref="C3"  Part="1" 
+F 0 "C3" H 6742 1346 50  0000 L CNN
 F 1 "100n" H 6742 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6650 1300 50  0001 C CNN
 F 3 "~" H 6650 1300 50  0001 C CNN
@@ -726,15 +713,9 @@ F 3 "" H 6650 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 1200 6650 1200
-Wire Wire Line
 	6650 1200 6650 1100
-Connection ~ 6650 1200
-Wire Wire Line
-	6500 1400 6650 1400
 Wire Wire Line
 	6650 1400 6650 1500
-Connection ~ 6650 1400
 Text Notes 8950 600  0    50   ~ 0
 Buck converter
 Text GLabel 9400 1150 3    50   Input ~ 0
@@ -777,8 +758,8 @@ L Device:C_Small C?
 U 1 1 60A48461
 P 9000 1150
 AR Path="/608A57BF/60A48461" Ref="C?"  Part="1" 
-AR Path="/60A48461" Ref="C5"  Part="1" 
-F 0 "C5" H 9092 1196 50  0000 L CNN
+AR Path="/60A48461" Ref="C4"  Part="1" 
+F 0 "C4" H 9092 1196 50  0000 L CNN
 F 1 "10u" H 9092 1105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9000 1150 50  0001 C CNN
 F 3 "~" H 9000 1150 50  0001 C CNN
@@ -1170,7 +1151,7 @@ U 1 1 609F1AA3
 P 1750 4600
 F 0 "Y1" V 1704 4688 50  0000 L CNN
 F 1 "32,768kHz" V 1795 4688 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering" H 1750 4600 50  0001 C CNN
+F 2 "myparts:TestPoint_2Pads_Pitch1mm_Drill0.4mm" H 1750 4600 50  0001 C CNN
 F 3 "~" H 1750 4600 50  0001 C CNN
 	1    1750 4600
 	0    1    1    0   
@@ -1346,7 +1327,7 @@ U 1 1 60A981F0
 P 7550 4400
 F 0 "U5" H 7300 4750 50  0000 L CNN
 F 1 "LIS2DH12" H 7650 4750 50  0000 L CNN
-F 2 "Package_LGA:LGA-12_2x2mm_P0.5mm" H 7550 4400 25  0001 C CNN
+F 2 "myparts:LGA-12_2x2mm_P0.5mm_Handsolder" H 7550 4400 25  0001 C CNN
 F 3 "" H 7550 4400 25  0001 C CNN
 	1    7550 4400
 	1    0    0    -1  
@@ -1885,7 +1866,7 @@ U 1 1 6096B8F0
 P 1900 5850
 F 0 "Y2" V 1800 5900 50  0000 L CNN
 F 1 "32MHz" V 2000 5850 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 1900 5850 50  0001 C CNN
+F 2 "myparts:SMD-2016_4P" H 1900 5850 50  0001 C CNN
 F 3 "~" H 1900 5850 50  0001 C CNN
 	1    1900 5850
 	0    1    1    0   
