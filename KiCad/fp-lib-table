@@ -2,5 +2,5 @@
   (lib (name Package_WSON-10)(type KiCad)(uri C:/Users/nils_/OneDrive/Documents/Projekte/Speed_sensor/speed_sensor/ul_BQ24040DSQR/KiCAD/2021-04-30_13-20-40/footprints.pretty)(options "")(descr ""))
   (lib (name Package_TQFN-12)(type KiCad)(uri C:/Users/nils_/OneDrive/Documents/Projekte/Speed_sensor/speed_sensor/ul_ST1PS02CQTR/KiCAD/2021-04-30_13-59-34/footprints.pretty)(options "")(descr ""))
   (lib (name Package_DFN_QFN_angepasstManuell)(type KiCad)(uri "C:/Program Files/KiCad/share/kicad/modules/Package_DFN_QFN.pretty_manuellAngepasst.pretty")(options "")(descr ""))
-  (lib (name myparts)(type KiCad)(uri C:/Users/nils_/OneDrive/Documents/Projekte/Speed_sensor/speed_sensor)(options "")(descr "")(disabled))
+  (lib (name myparts)(type KiCad)(uri C:/Users/nils_/OneDrive/Documents/Projekte/Speed_sensor/speed_sensor/mylib.pretty)(options "")(descr ""))
 )
