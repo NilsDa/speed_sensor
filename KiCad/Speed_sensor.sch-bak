@@ -224,8 +224,6 @@ Text Notes 600  2900 0    50   ~ 0
 Microcontroller
 Text GLabel 10450 3750 0    50   Input ~ 0
 BUCK_VOUT
-Text GLabel 10450 3900 0    50   Input ~ 0
-BUCK_Vout2
 Text GLabel 4050 5650 2    50   Input ~ 0
 SPI_01_CS
 Text GLabel 4050 5750 2    50   Input ~ 0
@@ -1739,17 +1737,6 @@ F 1 "PGOOD" V 10595 4200 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10550 4050 50  0001 C CNN
 F 3 "~" H 10550 4050 50  0001 C CNN
 	1    10550 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 609B3292
-P 10550 3900
-F 0 "H2" V 10504 4050 50  0000 L CNN
-F 1 "Vout2" V 10595 4050 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10550 3900 50  0001 C CNN
-F 3 "~" H 10550 3900 50  0001 C CNN
-	1    10550 3900
 	0    1    1    0   
 $EndComp
 Text GLabel 10450 4050 0    50   Input ~ 0
