@@ -224,8 +224,6 @@ Text Notes 600  2900 0    50   ~ 0
 Microcontroller
 Text GLabel 10450 3750 0    50   Input ~ 0
 BUCK_VOUT
-Text GLabel 10450 3900 0    50   Input ~ 0
-BUCK_Vout2
 Text GLabel 4050 5650 2    50   Input ~ 0
 SPI_01_CS
 Text GLabel 4050 5750 2    50   Input ~ 0
@@ -320,7 +318,7 @@ U 1 1 609B0299
 P 10550 3750
 F 0 "H1" V 10504 3900 50  0000 L CNN
 F 1 "VOUT" V 10595 3900 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10550 3750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10550 3750 50  0001 C CNN
 F 3 "~" H 10550 3750 50  0001 C CNN
 	1    10550 3750
 	0    1    1    0   
@@ -1413,8 +1411,8 @@ $Comp
 L Device:C_Small C20
 U 1 1 60AF63B1
 P 6350 4400
-F 0 "C20" H 6150 4450 50  0000 L CNN
-F 1 "100n" H 6100 4350 50  0000 L CNN
+F 0 "C20" H 6250 4500 50  0000 L CNN
+F 1 "100n" H 6200 4300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6350 4400 50  0001 C CNN
 F 3 "~" H 6350 4400 50  0001 C CNN
 	1    6350 4400
@@ -1605,7 +1603,7 @@ U 1 1 60DA2D58
 P 9300 3750
 F 0 "H5" V 9254 3900 50  0000 L CNN
 F 1 "AIN0" V 9345 3900 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 9300 3750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 3750 50  0001 C CNN
 F 3 "~" H 9300 3750 50  0001 C CNN
 	1    9300 3750
 	0    1    1    0   
@@ -1616,7 +1614,7 @@ U 1 1 60DA2D5E
 P 9300 3900
 F 0 "H6" V 9254 4050 50  0000 L CNN
 F 1 "AIN1" V 9345 4050 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 9300 3900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 3900 50  0001 C CNN
 F 3 "~" H 9300 3900 50  0001 C CNN
 	1    9300 3900
 	0    1    1    0   
@@ -1627,7 +1625,7 @@ U 1 1 60DA2D64
 P 9300 4050
 F 0 "H7" V 9254 4200 50  0000 L CNN
 F 1 "AIN2" V 9345 4200 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 9300 4050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 4050 50  0001 C CNN
 F 3 "~" H 9300 4050 50  0001 C CNN
 	1    9300 4050
 	0    1    1    0   
@@ -1638,7 +1636,7 @@ U 1 1 60DA2D6A
 P 9300 4200
 F 0 "H8" V 9254 4350 50  0000 L CNN
 F 1 "AIN3" V 9345 4350 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 9300 4200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 4200 50  0001 C CNN
 F 3 "~" H 9300 4200 50  0001 C CNN
 	1    9300 4200
 	0    1    1    0   
@@ -1649,7 +1647,7 @@ U 1 1 60DBA536
 P 9300 4350
 F 0 "H9" V 9254 4500 50  0000 L CNN
 F 1 "AIN4" V 9345 4500 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 9300 4350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 4350 50  0001 C CNN
 F 3 "~" H 9300 4350 50  0001 C CNN
 	1    9300 4350
 	0    1    1    0   
@@ -1660,7 +1658,7 @@ U 1 1 60DBA840
 P 9300 4500
 F 0 "H10" V 9254 4650 50  0000 L CNN
 F 1 "AIN5" V 9345 4650 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 9300 4500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 4500 50  0001 C CNN
 F 3 "~" H 9300 4500 50  0001 C CNN
 	1    9300 4500
 	0    1    1    0   
@@ -1671,7 +1669,7 @@ U 1 1 60DBAC0F
 P 9300 4650
 F 0 "H11" V 9250 4800 50  0000 L CNN
 F 1 "AIN6" V 9345 4800 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 9300 4650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 4650 50  0001 C CNN
 F 3 "~" H 9300 4650 50  0001 C CNN
 	1    9300 4650
 	0    1    1    0   
@@ -1682,7 +1680,7 @@ U 1 1 60DBAE07
 P 9300 4800
 F 0 "H12" V 9254 4950 50  0000 L CNN
 F 1 "AIN7" V 9345 4950 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 9300 4800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 4800 50  0001 C CNN
 F 3 "~" H 9300 4800 50  0001 C CNN
 	1    9300 4800
 	0    1    1    0   
@@ -1725,7 +1723,7 @@ U 1 1 609B38D9
 P 10550 4200
 F 0 "H4" V 10504 4350 50  0000 L CNN
 F 1 "SPI_01_CSB" V 10595 4350 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10550 4200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10550 4200 50  0001 C CNN
 F 3 "~" H 10550 4200 50  0001 C CNN
 	1    10550 4200
 	0    1    1    0   
@@ -1736,20 +1734,9 @@ U 1 1 609B3664
 P 10550 4050
 F 0 "H3" V 10504 4200 50  0000 L CNN
 F 1 "PGOOD" V 10595 4200 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10550 4050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10550 4050 50  0001 C CNN
 F 3 "~" H 10550 4050 50  0001 C CNN
 	1    10550 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 609B3292
-P 10550 3900
-F 0 "H2" V 10504 4050 50  0000 L CNN
-F 1 "Vout2" V 10595 4050 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10550 3900 50  0001 C CNN
-F 3 "~" H 10550 3900 50  0001 C CNN
-	1    10550 3900
 	0    1    1    0   
 $EndComp
 Text GLabel 10450 4050 0    50   Input ~ 0
@@ -1887,21 +1874,51 @@ Wire Wire Line
 	2050 5850 2050 5700
 Wire Wire Line
 	1750 5700 2050 5700
-$Comp
-L Device:Antenna AE1
-U 1 1 6099647A
-P 850 4800
-F 0 "AE1" H 930 4789 50  0000 L CNN
-F 1 "Antenna" H 930 4698 50  0000 L CNN
-F 2 "RF_Antenna:Texas_SWRA117D_2.4GHz_Right" H 850 4800 50  0001 C CNN
-F 3 "~" H 850 4800 50  0001 C CNN
-	1    850  4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	850  5000 850  5150
 Wire Wire Line
 	850  5150 1700 5150
 Text Notes 10550 1800 0    25   ~ 0
 R10 kann evtl. entfernt werden.
+$Comp
+L Device:Antenna_Shield AE1
+U 1 1 608E3518
+P 850 4800
+F 0 "AE1" H 770 4839 50  0000 R CNN
+F 1 "2,4GHz" H 770 4748 50  0000 R CNN
+F 2 "RF_Antenna:Texas_SWRA117D_2.4GHz_Right" H 850 4900 50  0001 C CNN
+F 3 "~" H 850 4900 50  0001 C CNN
+	1    850  4800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 608ED256
+P 750 5000
+F 0 "#PWR035" H 750 4750 50  0001 C CNN
+F 1 "GND" H 755 4827 50  0000 C CNN
+F 2 "" H 750 5000 50  0001 C CNN
+F 3 "" H 750 5000 50  0001 C CNN
+	1    750  5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 6094D484
+P 6200 4400
+F 0 "C5" H 6000 4450 50  0000 L CNN
+F 1 "100n" H 5950 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 6200 4400 50  0001 C CNN
+F 3 "~" H 6200 4400 50  0001 C CNN
+	1    6200 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4250 6200 4250
+Wire Wire Line
+	6200 4250 6200 4300
+Wire Wire Line
+	6200 4500 6200 4550
+Wire Wire Line
+	6200 4550 6350 4550
 $EndSCHEMATC
