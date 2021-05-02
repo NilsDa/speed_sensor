@@ -897,7 +897,7 @@ F 3 "" H 2700 1500 50  0001 C CNN
 	1    2700 1500
 	1    0    0    -1  
 $EndComp
-Text GLabel 4000 1150 2    50   Input ~ 0
+Text GLabel 4100 1100 2    50   Input ~ 0
 BQ_OUT
 Text GLabel 4000 1250 2    50   Input ~ 0
 BQ_TS
@@ -1149,7 +1149,7 @@ U 1 1 609F1AA3
 P 1750 4600
 F 0 "Y1" V 1704 4688 50  0000 L CNN
 F 1 "32,768kHz" V 1795 4688 50  0000 L CNN
-F 2 "myparts:TestPoint_2Pads_Pitch1mm_Drill0.4mm" H 1750 4600 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_G8-2Pin_3.2x1.5mm" H 1750 4600 50  0001 C CNN
 F 3 "~" H 1750 4600 50  0001 C CNN
 	1    1750 4600
 	0    1    1    0   
@@ -1937,4 +1937,8 @@ Wire Wire Line
 Connection ~ 900  5800
 Wire Wire Line
 	900  5800 700  5800
+Wire Wire Line
+	4100 1100 4100 1150
+Wire Wire Line
+	4100 1150 4000 1150
 $EndSCHEMATC

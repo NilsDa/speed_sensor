@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\nils_\OneDrive\Documents\Projekte\Speed_sensor\speed_sensor\KiCad\Speed_sensor.sch)
-    (date "01.05.2021 21:54:08")
+    (date "02.05.2021 12:05:23")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -266,7 +266,7 @@
       (tstamp 6092D8CC))
     (comp (ref Y1)
       (value 32,768kHz)
-      (footprint myparts:TestPoint_2Pads_Pitch1mm_Drill0.4mm)
+      (footprint Crystal:Crystal_SMD_G8-2Pin_3.2x1.5mm)
       (datasheet ~)
       (libsource (lib Device) (part Crystal_Small) (description "Two pin crystal, small symbol"))
       (sheetpath (names /) (tstamps /))
