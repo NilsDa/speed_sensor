@@ -1206,7 +1206,7 @@
   )
 
   (module MountingHole:MountingHole_4.3mm_M4_Pad_Via (layer F.Cu) (tedit 56DDBFD7) (tstamp 608DBA1B)
-    (at 99.568 78.486)
+    (at 98.552 77.978)
     (descr "Mounting Hole 4.3mm, M4")
     (tags "mounting hole 4.3mm m4")
     (path /608C6FF8)
@@ -1317,7 +1317,7 @@
   )
 
   (module MountingHole:MountingHole_4.3mm_M4_Pad_Via (layer F.Cu) (tedit 56DDBFD7) (tstamp 608CFF7E)
-    (at 145.542 78.486)
+    (at 144.526 77.978)
     (descr "Mounting Hole 4.3mm, M4")
     (tags "mounting hole 4.3mm m4")
     (path /608D215A)
@@ -1474,7 +1474,7 @@
   )
 
   (module Connector_PinSocket_2.00mm:PinSocket_2x05_P2.00mm_Vertical_SMD (layer F.Cu) (tedit 5A19A422) (tstamp 608C8389)
-    (at 131.572 79.756 270)
+    (at 130.556 77.724 270)
     (descr "surface-mounted straight socket strip, 2x05, 2.00mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Surface mounted socket strip SMD 2x05 2.00mm double row")
     (path /6084F304)
@@ -2710,7 +2710,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DBAD4)
-    (at 106.934 78.74 180)
+    (at 105.918 78.232 180)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /60DA2D58)
@@ -2740,7 +2740,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DA45B)
-    (at 110.744 78.74 180)
+    (at 109.728 78.232 180)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /60DA2D5E)
@@ -2770,7 +2770,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DA467)
-    (at 114.554 78.74 180)
+    (at 113.538 78.232 180)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /60DA2D64)
@@ -2800,7 +2800,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DA473)
-    (at 118.491 78.74 180)
+    (at 117.475 78.232 180)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /60DA2D6A)
@@ -2890,7 +2890,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DA5C3)
-    (at 122.428 78.74 180)
+    (at 121.412 78.232 180)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /609B38D9)

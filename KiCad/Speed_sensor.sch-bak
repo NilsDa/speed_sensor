@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L power:GND #PWR0101
 U 1 1 60833A00
-P 3200 7550
-F 0 "#PWR0101" H 3200 7300 50  0001 C CNN
-F 1 "GND" H 3205 7377 50  0000 C CNN
-F 2 "" H 3200 7550 50  0001 C CNN
-F 3 "" H 3200 7550 50  0001 C CNN
-	1    3200 7550
+P 3150 7550
+F 0 "#PWR0101" H 3150 7300 50  0001 C CNN
+F 1 "GND" H 3155 7377 50  0000 C CNN
+F 2 "" H 3150 7550 50  0001 C CNN
+F 3 "" H 3150 7550 50  0001 C CNN
+	1    3150 7550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -222,8 +222,6 @@ Wire Wire Line
 Connection ~ 2500 3100
 Text Notes 600  2900 0    50   ~ 0
 Microcontroller
-Text GLabel 10450 3750 0    50   Input ~ 0
-BUCK_VOUT
 Text GLabel 4050 5650 2    50   Input ~ 0
 SPI_01_CS
 Text GLabel 4050 5750 2    50   Input ~ 0
@@ -315,12 +313,12 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 609B0299
-P 10550 3750
-F 0 "H1" V 10504 3900 50  0000 L CNN
-F 1 "VOUT" V 10595 3900 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10550 3750 50  0001 C CNN
-F 3 "~" H 10550 3750 50  0001 C CNN
-	1    10550 3750
+P 10550 3850
+F 0 "H1" V 10504 4000 50  0000 L CNN
+F 1 "VOUT" V 10595 4000 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10550 3850 50  0001 C CNN
+F 3 "~" H 10550 3850 50  0001 C CNN
+	1    10550 3850
 	0    1    1    0   
 $EndComp
 Text GLabel 4050 5850 2    50   Input ~ 0
@@ -329,8 +327,6 @@ Text GLabel 4050 6150 2    50   Input ~ 0
 SWO
 Text GLabel 10400 5650 2    50   Input ~ 0
 SWO
-Text GLabel 9700 1500 0    50   Input ~ 0
-D2
 Text GLabel 9700 900  0    50   Input ~ 0
 EN
 $Comp
@@ -716,41 +712,23 @@ Wire Wire Line
 	6650 1400 6650 1500
 Text Notes 8950 600  0    50   ~ 0
 Buck converter
-Text GLabel 9400 1150 3    50   Input ~ 0
-D2
 $Comp
 L power:GND #PWR?
 U 1 1 609EC4A9
-P 9500 1550
+P 9600 1300
 AR Path="/608A57BF/609EC4A9" Ref="#PWR?"  Part="1" 
 AR Path="/609EC4A9" Ref="#PWR029"  Part="1" 
-F 0 "#PWR029" H 9500 1300 50  0001 C CNN
-F 1 "GND" H 9505 1377 50  0000 C CNN
-F 2 "" H 9500 1550 50  0001 C CNN
-F 3 "" H 9500 1550 50  0001 C CNN
-	1    9500 1550
+F 0 "#PWR029" H 9600 1050 50  0001 C CNN
+F 1 "GND" H 9600 1150 50  0000 C CNN
+F 2 "" H 9600 1300 50  0001 C CNN
+F 3 "" H 9600 1300 50  0001 C CNN
+	1    9600 1300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9500 1400 9700 1400
-Wire Wire Line
-	9500 1300 9500 1400
-Connection ~ 9500 1400
-Wire Wire Line
-	9500 1400 9500 1550
-Text GLabel 10400 1100 2    50   Input ~ 0
-BUCK_VOUT
-Text GLabel 9100 2650 1    50   Input ~ 0
-BUCK_VOUT
-Wire Wire Line
-	9500 1300 9700 1300
 Wire Wire Line
 	9400 1000 9400 1100
 Wire Wire Line
 	9400 1100 9700 1100
-Connection ~ 9400 1100
-Wire Wire Line
-	9400 1100 9400 1150
 $Comp
 L Device:C_Small C?
 U 1 1 60A48461
@@ -794,12 +772,8 @@ Text GLabel 10400 900  2    50   Input ~ 0
 BUCK_PGOOD
 Text GLabel 10400 1000 2    50   Input ~ 0
 BUCK_SW
-Text GLabel 10400 1200 2    50   Input ~ 0
-BUCK_GND
 Text GLabel 10400 1300 2    50   Input ~ 0
 BUCK_Vout2
-Text GLabel 10400 1400 2    50   Input ~ 0
-BUCK_AUX
 $Comp
 L Device:R_Small R?
 U 1 1 60A65878
@@ -889,16 +863,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR09
 U 1 1 608BC5E0
-P 2700 1500
-F 0 "#PWR09" H 2700 1250 50  0001 C CNN
-F 1 "GND" H 2705 1327 50  0000 C CNN
-F 2 "" H 2700 1500 50  0001 C CNN
-F 3 "" H 2700 1500 50  0001 C CNN
-	1    2700 1500
+P 2750 1350
+F 0 "#PWR09" H 2750 1100 50  0001 C CNN
+F 1 "GND" H 2755 1177 50  0000 C CNN
+F 2 "" H 2750 1350 50  0001 C CNN
+F 3 "" H 2750 1350 50  0001 C CNN
+	1    2750 1350
 	1    0    0    -1  
 $EndComp
-Text GLabel 4000 1150 2    50   Input ~ 0
-BQ_OUT
 Text GLabel 4000 1250 2    50   Input ~ 0
 BQ_TS
 Text GLabel 4000 1350 2    50   Input ~ 0
@@ -924,12 +896,6 @@ Wire Wire Line
 	4150 1550 4150 1450
 Wire Wire Line
 	4150 1450 4000 1450
-Text GLabel 3150 1350 0    50   Input ~ 0
-BQ_VSS
-Text GLabel 2700 1500 1    50   Input ~ 0
-BQ_VSS
-Text GLabel 4500 1450 3    50   Input ~ 0
-BQ_VSS
 Text GLabel 4500 1250 1    50   Input ~ 0
 BQ_TS
 $Comp
@@ -993,8 +959,6 @@ F 3 "~" H 5050 1250 50  0001 C CNN
 	1    5050 1250
 	-1   0    0    1   
 $EndComp
-Text GLabel 4800 1000 1    50   Input ~ 0
-BQ_OUT
 Text GLabel 5050 1550 3    50   Input ~ 0
 ~BQ_CHG~
 $Comp
@@ -1033,12 +997,9 @@ F 3 "" H 2150 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 1000 4800 1100
-Wire Wire Line
 	4800 1100 5050 1100
 Wire Wire Line
 	5050 1100 5050 1150
-Connection ~ 4800 1100
 Wire Wire Line
 	4800 1100 4800 1150
 $Comp
@@ -1301,20 +1262,8 @@ $EndComp
 Wire Wire Line
 	1900 5150 2150 5150
 Connection ~ 2150 5150
-Text GLabel 3050 7550 0    50   Input ~ 0
-NRF_VSS
-Wire Wire Line
-	3050 7550 3150 7550
-Connection ~ 3150 7550
-Wire Wire Line
-	3150 7550 3200 7550
-Text GLabel 1950 5350 0    50   Input ~ 0
-NRF_VSS
 Wire Wire Line
 	2150 5350 2150 5400
-Wire Wire Line
-	2150 5350 1950 5350
-Connection ~ 2150 5350
 Wire Notes Line
 	2000 600  2000 1850
 Wire Notes Line
@@ -1474,10 +1423,6 @@ Text GLabel 10450 2650 1    50   Input ~ 0
 BUCK_PGOOD
 Text GLabel 10650 2650 1    50   Input ~ 0
 BUCK_SW
-Text GLabel 10300 2850 1    50   Input ~ 0
-BUCK_VOUT
-Text GLabel 9950 2850 1    50   Input ~ 0
-BUCK_GND
 Text GLabel 10150 2850 1    50   Input ~ 0
 BUCK_Vout2
 $Comp
@@ -1531,19 +1476,15 @@ Connection ~ 10150 3100
 $Comp
 L power:+3V0 #PWR033
 U 1 1 60CABFF4
-P 10950 2850
-F 0 "#PWR033" H 10950 2700 50  0001 C CNN
-F 1 "+3V0" H 10950 3000 50  0000 C CNN
-F 2 "" H 10950 2850 50  0001 C CNN
-F 3 "" H 10950 2850 50  0001 C CNN
-	1    10950 2850
+P 10300 2850
+F 0 "#PWR033" H 10300 2700 50  0001 C CNN
+F 1 "+3V0" H 10300 3000 50  0000 C CNN
+F 2 "" H 10300 2850 50  0001 C CNN
+F 3 "" H 10300 2850 50  0001 C CNN
+	1    10300 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10950 2850 10950 2900
 Connection ~ 10300 2900
-Wire Wire Line
-	9950 2850 9950 3100
 $Comp
 L Device:L_Small L1
 U 1 1 60CCE7A3
@@ -1575,20 +1516,8 @@ Wire Wire Line
 Wire Wire Line
 	10300 2900 10450 2900
 Connection ~ 10450 2900
-Connection ~ 10650 2900
 Wire Wire Line
 	10450 2900 10650 2900
-Wire Wire Line
-	10650 2900 10950 2900
-Connection ~ 9950 3100
-Wire Wire Line
-	9950 3100 10150 3100
-Text GLabel 9800 2850 1    50   Input ~ 0
-BUCK_AUX
-Wire Wire Line
-	9800 2850 9800 3100
-Wire Wire Line
-	9800 3100 9950 3100
 Text GLabel 4050 7050 2    50   Input ~ 0
 AIN4
 Text GLabel 4050 7150 2    50   Input ~ 0
@@ -1874,7 +1803,7 @@ Wire Wire Line
 	2050 5850 2050 5700
 Wire Wire Line
 	1750 5700 2050 5700
-Text Notes 10550 1800 0    25   ~ 0
+Text Notes 10300 1900 0    25   ~ 0
 R10 kann evtl. entfernt werden.
 $Comp
 L Device:C_Small C5
@@ -1937,4 +1866,105 @@ Wire Wire Line
 Connection ~ 900  5800
 Wire Wire Line
 	900  5800 700  5800
+Wire Wire Line
+	4100 1100 4100 1150
+Wire Wire Line
+	4100 1150 4000 1150
+$Comp
+L power:+BATT #PWR037
+U 1 1 60A5CE9C
+P 4100 1100
+AR Path="/60A5CE9C" Ref="#PWR037"  Part="1" 
+AR Path="/608A57BF/60A5CE9C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR037" H 4100 950 50  0001 C CNN
+F 1 "+BATT" H 4115 1273 50  0000 C CNN
+F 2 "" H 4100 1100 50  0001 C CNN
+F 3 "" H 4100 1100 50  0001 C CNN
+	1    4100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V0 #PWR040
+U 1 1 60A5D75E
+P 11050 1100
+F 0 "#PWR040" H 11050 950 50  0001 C CNN
+F 1 "+3V0" H 11050 1250 50  0000 C CNN
+F 2 "" H 11050 1100 50  0001 C CNN
+F 3 "" H 11050 1100 50  0001 C CNN
+	1    11050 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 1100 11050 1100
+$Comp
+L power:+3V0 #PWR038
+U 1 1 60A6E034
+P 9100 2650
+F 0 "#PWR038" H 9100 2500 50  0001 C CNN
+F 1 "+3V0" H 9100 2800 50  0000 C CNN
+F 2 "" H 9100 2650 50  0001 C CNN
+F 3 "" H 9100 2650 50  0001 C CNN
+	1    9100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V0 #PWR039
+U 1 1 60A6F470
+P 10400 3850
+F 0 "#PWR039" H 10400 3700 50  0001 C CNN
+F 1 "+3V0" H 10400 4000 50  0000 C CNN
+F 2 "" H 10400 3850 50  0001 C CNN
+F 3 "" H 10400 3850 50  0001 C CNN
+	1    10400 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 3850 10450 3850
+Wire Wire Line
+	2750 1350 3150 1350
+$Comp
+L power:GND #PWR041
+U 1 1 60A8BA9E
+P 4500 1450
+F 0 "#PWR041" H 4500 1200 50  0001 C CNN
+F 1 "GND" H 4505 1277 50  0000 C CNN
+F 2 "" H 4500 1450 50  0001 C CNN
+F 3 "" H 4500 1450 50  0001 C CNN
+	1    4500 1450
+	1    0    0    -1  
+$EndComp
+Text Notes 4400 1750 0    25   ~ 0
+R3 mit VSS von \nBQ... verbinden
+$Comp
+L power:GND #PWR?
+U 1 1 60A8E087
+P 10950 1450
+AR Path="/608A57BF/60A8E087" Ref="#PWR?"  Part="1" 
+AR Path="/60A8E087" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 10950 1200 50  0001 C CNN
+F 1 "GND" H 10955 1277 50  0000 C CNN
+F 2 "" H 10950 1450 50  0001 C CNN
+F 3 "" H 10950 1450 50  0001 C CNN
+	1    10950 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 1200 10950 1200
+Wire Wire Line
+	10950 1200 10950 1400
+Wire Wire Line
+	10400 1400 10950 1400
+Connection ~ 10950 1400
+Wire Wire Line
+	10950 1400 10950 1450
+Wire Wire Line
+	9700 1400 9700 1300
+Wire Wire Line
+	9600 1300 9700 1300
+Connection ~ 9700 1300
+Wire Wire Line
+	9700 1500 9400 1500
+Wire Wire Line
+	9400 1500 9400 1100
+Connection ~ 9400 1100
 $EndSCHEMATC
