@@ -222,11 +222,11 @@ Wire Wire Line
 Connection ~ 2500 3100
 Text Notes 600  2900 0    50   ~ 0
 Microcontroller
-Text GLabel 4050 5650 2    50   Input ~ 0
+Text GLabel 4050 5850 2    50   Input ~ 0
 SPI_01_CS
 Text GLabel 4050 5750 2    50   Input ~ 0
 SPI_MISO
-Text GLabel 4050 5950 2    50   Input ~ 0
+Text GLabel 4050 5650 2    50   Input ~ 0
 SPI_MOSI
 Text Notes 6000 3700 0    50   ~ 0
 Beschleunigungssensor
@@ -321,7 +321,7 @@ F 3 "~" H 10550 3850 50  0001 C CNN
 	1    10550 3850
 	0    1    1    0   
 $EndComp
-Text GLabel 4050 5850 2    50   Input ~ 0
+Text GLabel 4050 5950 2    50   Input ~ 0
 SPI_SCK
 Text GLabel 4050 6150 2    50   Input ~ 0
 SWO
@@ -1098,8 +1098,6 @@ Text GLabel 4050 4650 2    50   Input ~ 0
 AIN1
 Text GLabel 4050 4750 2    50   Input ~ 0
 AIN2
-Text GLabel 4050 4850 2    50   Input ~ 0
-AIN3
 Text GLabel 2000 4450 2    50   Input ~ 0
 XL1
 Text GLabel 2000 4750 2    50   Input ~ 0
@@ -1281,9 +1279,9 @@ F 3 "" H 7550 4400 25  0001 C CNN
 $EndComp
 Text GLabel 7200 4250 0    50   Input ~ 0
 SPI_01_CS
-Text GLabel 4050 5050 2    50   Input ~ 0
+Text GLabel 4050 4950 2    50   Input ~ 0
 ACCEL_INT1
-Text GLabel 4050 5150 2    50   Input ~ 0
+Text GLabel 4050 5050 2    50   Input ~ 0
 ACCEL_INT2
 Text GLabel 7900 4450 2    50   Input ~ 0
 ACCEL_INT1
@@ -1630,7 +1628,6 @@ Text GLabel 9200 4650 0    50   Input ~ 0
 AIN6
 Text GLabel 9200 4800 0    50   Input ~ 0
 AIN7
-NoConn ~ 4050 4950
 NoConn ~ 4050 5250
 NoConn ~ 4050 5350
 NoConn ~ 4050 5450
@@ -1967,4 +1964,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 1500 9400 1100
 Connection ~ 9400 1100
+NoConn ~ 4050 5150
+Text GLabel 4050 4850 2    50   Input ~ 0
+AIN3
 $EndSCHEMATC
