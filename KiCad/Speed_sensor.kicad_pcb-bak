@@ -258,7 +258,7 @@
     (tags "SMD SMT crystal")
     (path /609F1AA3)
     (attr smd)
-    (fp_text reference Y1 (at 0 -1.95 180) (layer F.SilkS)
+    (fp_text reference Y1 (at 0 -1.95 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 32,768kHz (at 0 1.95 90) (layer F.Fab)
@@ -300,7 +300,7 @@
     (tags "capacitor handsolder")
     (path /608FE5C5)
     (attr smd)
-    (fp_text reference C1 (at -0.0265 -1.397) (layer F.SilkS)
+    (fp_text reference C1 (at -0.0265 -1.397) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 1.43) (layer F.Fab) hide
@@ -336,7 +336,7 @@
     (tags "capacitor handsolder")
     (path /6091B3BA)
     (attr smd)
-    (fp_text reference C2 (at 0.1005 1.397) (layer F.SilkS)
+    (fp_text reference C2 (at 0.1005 1.397) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 1.43) (layer F.Fab) hide
@@ -367,12 +367,12 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 6091AA29)
-    (at 49.276 44.958 90)
+    (at 59.182 41.148 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /609A9B57)
     (attr smd)
-    (fp_text reference C3 (at 1.016 1.524 180) (layer F.SilkS)
+    (fp_text reference C3 (at 1.016 1.524 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 1.43 90) (layer F.Fab) hide
@@ -403,12 +403,12 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 608C80F5)
-    (at 37.338 49.784)
+    (at 55.372 49.784)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /60A48461)
     (attr smd)
-    (fp_text reference C4 (at -0.1789 1.3462 270) (layer F.SilkS)
+    (fp_text reference C4 (at -0.1789 1.3462 -90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10u (at 0 1.43) (layer F.Fab) hide
@@ -439,12 +439,12 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 608C8106)
-    (at 41.91 54.356)
+    (at 59.944 54.356)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /60C90235)
     (attr smd)
-    (fp_text reference C6 (at 2.8205 0.254) (layer F.SilkS)
+    (fp_text reference C6 (at 2.8205 0.254) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10u (at 0 1.43) (layer F.Fab) hide
@@ -475,12 +475,12 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 608C8117)
-    (at 37.338 54.356 180)
+    (at 55.372 54.356 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /60C8F999)
     (attr smd)
-    (fp_text reference C7 (at 0.0265 1.016) (layer F.SilkS)
+    (fp_text reference C7 (at 0.0265 1.016) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10u (at 0 1.43) (layer F.Fab) hide
@@ -516,7 +516,7 @@
     (tags "capacitor handsolder")
     (path /608510EE)
     (attr smd)
-    (fp_text reference C8 (at 2.794 0) (layer F.SilkS)
+    (fp_text reference C8 (at 2.794 0) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 4.7u (at 0 1.43) (layer F.Fab) hide
@@ -552,7 +552,7 @@
     (tags "capacitor handsolder")
     (path /608465A3)
     (attr smd)
-    (fp_text reference C9 (at 0 -1.16) (layer F.SilkS)
+    (fp_text reference C9 (at 0 -1.16) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 1.16) (layer F.Fab) hide
@@ -588,7 +588,7 @@
     (tags "capacitor handsolder")
     (path /609F09F6)
     (attr smd)
-    (fp_text reference C10 (at 1.778 0.635 180) (layer F.SilkS)
+    (fp_text reference C10 (at 1.778 0.635 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 1.16 90) (layer F.Fab) hide
@@ -624,7 +624,7 @@
     (tags "capacitor handsolder")
     (path /6084EEE7)
     (attr smd)
-    (fp_text reference C11 (at 0.9652 -1.2192) (layer F.SilkS)
+    (fp_text reference C11 (at 0.9652 -1.2192) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100p (at 0 1.16) (layer F.Fab) hide
@@ -660,7 +660,7 @@
     (tags "capacitor handsolder")
     (path /6084E95F)
     (attr smd)
-    (fp_text reference C12 (at 1.0581 -1.1176 180) (layer F.SilkS)
+    (fp_text reference C12 (at 1.0581 -1.1176 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value N.C. (at 0 1.16) (layer F.Fab) hide
@@ -696,7 +696,7 @@
     (tags "capacitor handsolder")
     (path /60834B32)
     (attr smd)
-    (fp_text reference C13 (at 2.54 0) (layer F.SilkS)
+    (fp_text reference C13 (at 2.54 0) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 1.16) (layer F.Fab) hide
@@ -732,7 +732,7 @@
     (tags "capacitor handsolder")
     (path /6083DA76)
     (attr smd)
-    (fp_text reference C14 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference C14 (at 0 -1.43) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 1.43) (layer F.Fab) hide
@@ -768,7 +768,7 @@
     (tags "capacitor handsolder")
     (path /609F21FA)
     (attr smd)
-    (fp_text reference C15 (at 0.2453 -1.0668 90) (layer F.SilkS)
+    (fp_text reference C15 (at 0.2453 -1.0668 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 12p (at 0 1.16 90) (layer F.Fab) hide
@@ -804,7 +804,7 @@
     (tags "capacitor handsolder")
     (path /609F2984)
     (attr smd)
-    (fp_text reference C16 (at 0.1865 -1.143 90) (layer F.SilkS)
+    (fp_text reference C16 (at 0.1865 -1.143 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 12p (at 0 1.16 90) (layer F.Fab) hide
@@ -840,7 +840,7 @@
     (tags "capacitor handsolder")
     (path /60A300EA)
     (attr smd)
-    (fp_text reference C17 (at 1.9217 -0.6604 180) (layer F.SilkS)
+    (fp_text reference C17 (at 1.9217 -0.6604 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0,8p (at 0 1.16 90) (layer F.Fab) hide
@@ -876,7 +876,7 @@
     (tags "capacitor handsolder")
     (path /6084BFFB)
     (attr smd)
-    (fp_text reference C18 (at 0.127 -1.143) (layer F.SilkS)
+    (fp_text reference C18 (at 0.127 -1.143) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 12p (at 0 1.16) (layer F.Fab) hide
@@ -912,7 +912,7 @@
     (tags "capacitor handsolder")
     (path /6084C964)
     (attr smd)
-    (fp_text reference C19 (at 0 -1.143) (layer F.SilkS)
+    (fp_text reference C19 (at 0 -1.143) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 12p (at 0 1.16) (layer F.Fab) hide
@@ -948,7 +948,7 @@
     (tags "capacitor handsolder")
     (path /60AF63B1)
     (attr smd)
-    (fp_text reference C20 (at 0.254 -1.6256 180) (layer F.SilkS)
+    (fp_text reference C20 (at 0.254 -1.6256 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 1.16 90) (layer F.Fab) hide
@@ -984,7 +984,7 @@
     (tags "capacitor handsolder")
     (path /60AF6F01)
     (attr smd)
-    (fp_text reference C21 (at 2.8437 -0.127) (layer F.SilkS)
+    (fp_text reference C21 (at 2.8437 -0.127) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10u (at 0 1.43) (layer F.Fab) hide
@@ -1020,7 +1020,7 @@
     (tags "diode handsolder")
     (path /6089BF57)
     (attr smd)
-    (fp_text reference D1 (at -2.7572 0.1016 90) (layer F.SilkS)
+    (fp_text reference D1 (at -2.7572 0.1016 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Green (3V)" (at 0 1.43 90) (layer F.Fab) hide
@@ -1058,7 +1058,7 @@
     (tags "diode handsolder")
     (path /608E3C1A)
     (attr smd)
-    (fp_text reference D2 (at 2.667 -0.0508) (layer F.SilkS)
+    (fp_text reference D2 (at 2.667 -0.0508) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value IN-GREEN (at 0 1.43) (layer F.Fab) hide
@@ -1096,7 +1096,7 @@
     (tags "diode handsolder")
     (path /608EDEB0)
     (attr smd)
-    (fp_text reference D3 (at -2.4244 -0.127 180) (layer F.SilkS)
+    (fp_text reference D3 (at -2.4244 -0.127 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value charging-ORANGE (at 0 1.43 90) (layer F.Fab) hide
@@ -1129,12 +1129,12 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer F.Cu) (tedit 58645DC7) (tstamp 6091AA61)
-    (at 55.118 41.656)
+    (at 65.024 37.846)
     (descr SOD-123)
     (tags SOD-123)
     (path /60938C0B)
     (attr smd)
-    (fp_text reference D4 (at 2.9464 0.0254 270) (layer F.SilkS)
+    (fp_text reference D4 (at 2.9464 0.0254 -90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DDZ9678 (at 0 2.1) (layer F.Fab) hide
@@ -1173,12 +1173,12 @@
   )
 
   (module Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEF0) (tstamp 6091A788)
-    (at 32.766 52.832 90)
+    (at 50.8 52.832 90)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (path /6089BF8D)
     (attr smd)
-    (fp_text reference D5 (at -0.9512 1.7018 180) (layer F.SilkS)
+    (fp_text reference D5 (at -0.9512 1.7018 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Yellow (2V)" (at 0 1.43 90) (layer F.Fab) hide
@@ -1216,7 +1216,7 @@
     (tags "USB USB_B USB_micro USB_OTG")
     (path /6089BEED)
     (attr smd)
-    (fp_text reference J1 (at 3.5814 -3.7846 180) (layer F.SilkS)
+    (fp_text reference J1 (at 3.5814 -3.7846 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value USB_B_Micro (at -0.025 4.435 90) (layer F.Fab)
@@ -1294,7 +1294,7 @@
     (tags "Surface mounted socket strip SMD 2x05 2.00mm double row")
     (path /6084F304)
     (attr smd)
-    (fp_text reference J2 (at 0 -6.5 180) (layer F.SilkS)
+    (fp_text reference J2 (at 0 -6.5 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SWD (at 0 6.5 90) (layer F.Fab)
@@ -1385,12 +1385,12 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 60910E87)
-    (at 35.56 52.07 180)
+    (at 53.594 52.07 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /60CCE7A3)
     (attr smd)
-    (fp_text reference L1 (at 0.4478 -1.8034 270) (layer F.SilkS)
+    (fp_text reference L1 (at 0.4478 -1.8034 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 2,2u (at 0 1.65) (layer F.Fab) hide
@@ -1426,7 +1426,7 @@
     (tags "inductor handsolder")
     (path /6083D68E)
     (attr smd)
-    (fp_text reference L2 (at 1.6764 0 180) (layer F.SilkS)
+    (fp_text reference L2 (at 1.6764 0 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 15n (at 0 1.17 90) (layer F.Fab) hide
@@ -1462,7 +1462,7 @@
     (tags "inductor handsolder")
     (path /6083B920)
     (attr smd)
-    (fp_text reference L3 (at -0.1664 -1.4986 180) (layer F.SilkS)
+    (fp_text reference L3 (at -0.1664 -1.4986 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10u (at 0 1.43 90) (layer F.Fab) hide
@@ -1498,7 +1498,7 @@
     (tags "inductor handsolder")
     (path /60A35F42)
     (attr smd)
-    (fp_text reference L4 (at 0 -1.17) (layer F.SilkS)
+    (fp_text reference L4 (at 0 -1.17) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 3,9n (at 0 1.17) (layer F.Fab) hide
@@ -1534,7 +1534,7 @@
     (tags "resistor handsolder")
     (path /6089BF5D)
     (attr smd)
-    (fp_text reference R1 (at -2.7705 0) (layer F.SilkS)
+    (fp_text reference R1 (at -2.7705 0) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 200 (at 0 1.43) (layer F.Fab) hide
@@ -1570,7 +1570,7 @@
     (tags "resistor handsolder")
     (path /608AE2FD)
     (attr smd)
-    (fp_text reference R2 (at 2.4365 0 180) (layer F.SilkS)
+    (fp_text reference R2 (at 2.4365 0 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10,8k (at 0 1.43 90) (layer F.Fab) hide
@@ -1606,7 +1606,7 @@
     (tags "resistor handsolder")
     (path /608D8614)
     (attr smd)
-    (fp_text reference R3 (at 0.1251 1.397) (layer F.SilkS)
+    (fp_text reference R3 (at 0.1251 1.397) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10k (at 0 1.43) (layer F.Fab) hide
@@ -1642,7 +1642,7 @@
     (tags "resistor handsolder")
     (path /608E4CB9)
     (attr smd)
-    (fp_text reference R4 (at -2.667 -0.1016 90) (layer F.SilkS)
+    (fp_text reference R4 (at -2.667 -0.1016 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 510 (at 0 1.43 90) (layer F.Fab) hide
@@ -1678,7 +1678,7 @@
     (tags "resistor handsolder")
     (path /608EDEB6)
     (attr smd)
-    (fp_text reference R5 (at 2.4384 -0.2286 180) (layer F.SilkS)
+    (fp_text reference R5 (at 2.4384 -0.2286 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 270 (at 0 1.43 90) (layer F.Fab)
@@ -1709,12 +1709,12 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder (layer F.Cu) (tedit 5F6BB9E0) (tstamp 6091A95D)
-    (at 56.388 43.688 180)
+    (at 66.294 39.878 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /6092A3E9)
     (attr smd)
-    (fp_text reference R6 (at 0.254 1.143) (layer F.SilkS)
+    (fp_text reference R6 (at 0.254 1.143) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 27k (at 0 1.17) (layer F.Fab) hide
@@ -1745,12 +1745,12 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder (layer F.Cu) (tedit 5F6BB9E0) (tstamp 6091A9F9)
-    (at 56.388 44.958 180)
+    (at 66.294 41.148 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /6092AF72)
     (attr smd)
-    (fp_text reference R7 (at -1.6885 0.0254 270) (layer F.SilkS)
+    (fp_text reference R7 (at -1.6885 0.0254 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10k (at 0 1.17) (layer F.Fab) hide
@@ -1781,12 +1781,12 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder (layer F.Cu) (tedit 5F6BB9E0) (tstamp 6091A92D)
-    (at 56.388 46.228)
+    (at 66.294 42.418)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /6092BFFD)
     (attr smd)
-    (fp_text reference R8 (at 1.7018 0 270) (layer F.SilkS)
+    (fp_text reference R8 (at 1.7018 0 -90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 12k (at 0 1.17) (layer F.Fab) hide
@@ -1817,12 +1817,12 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder (layer F.Cu) (tedit 5F6BB9E0) (tstamp 6091A9C9)
-    (at 51.308 42.418)
+    (at 61.214 38.608)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /6095AB4D)
     (attr smd)
-    (fp_text reference R9 (at -0.0375 1.143) (layer F.SilkS)
+    (fp_text reference R9 (at -0.0375 1.143) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 470k (at 0 1.17) (layer F.Fab) hide
@@ -1853,12 +1853,12 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder (layer F.Cu) (tedit 5F6BB9E0) (tstamp 608C8477)
-    (at 43.18 51.562)
+    (at 61.214 51.562)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /60A65878)
     (attr smd)
-    (fp_text reference R10 (at 0.2032 -1.778 270) (layer F.SilkS)
+    (fp_text reference R10 (at 0.2032 -1.778 -90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 0 (at 0 1.17) (layer F.Fab) hide
@@ -1889,12 +1889,12 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 608C8488)
-    (at 29.972 53.848 180)
+    (at 48.006 53.848 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /6089BF93)
     (attr smd)
-    (fp_text reference R11 (at 0.8363 -1.6764 270) (layer F.SilkS)
+    (fp_text reference R11 (at 0.8363 -1.6764 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 200 (at 0 1.43) (layer F.Fab) hide
@@ -1925,12 +1925,12 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder (layer F.Cu) (tedit 5F6BB9E0) (tstamp 608C8499)
-    (at 43.18 52.832)
+    (at 61.214 52.832)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /60CDA7DE)
     (attr smd)
-    (fp_text reference R12 (at -2.3755 -0.381) (layer F.SilkS)
+    (fp_text reference R12 (at -2.3755 -0.381) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1M (at 0 1.17) (layer F.Fab) hide
@@ -2098,12 +2098,12 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23-5_HandSoldering (layer F.Cu) (tedit 5A0AB76C) (tstamp 6091A991)
-    (at 52.578 44.958 180)
+    (at 62.484 41.148 180)
     (descr "5-pin SOT23 package")
     (tags "SOT-23-5 hand-soldering")
     (path /60965568)
     (attr smd)
-    (fp_text reference U2 (at 0.6388 -0.0864) (layer F.SilkS)
+    (fp_text reference U2 (at 0.6388 -0.0864) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TP1941U (at 0 2.9) (layer F.Fab) hide
@@ -2141,12 +2141,12 @@
   )
 
   (module Package_TQFN-12:ST1PS02CQTR_breitePins (layer F.Cu) (tedit 0) (tstamp 608C858B)
-    (at 39.7256 52.0192)
+    (at 57.7596 52.0192)
     (path /609A8A46)
-    (fp_text reference U3 (at -1.27 -2.159) (layer F.SilkS)
+    (fp_text reference U3 (at -1.27 -2.159) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value ST1PS02 (at 0.381 -1.27) (layer F.SilkS)
+    (fp_text value ST1PS02 (at 0.381 -1.27) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.125)))
     )
     (fp_line (start -0.3556 1.3081) (end -1.1557 1.3081) (layer F.CrtYd) (width 0.1524))
@@ -2289,7 +2289,7 @@
     (tags "QFN NoLead")
     (path /6084B7A2)
     (attr smd)
-    (fp_text reference U4 (at -0.51816 -4.4323) (layer F.SilkS)
+    (fp_text reference U4 (at -0.51816 -4.4323) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value nRF52832-QFxx (at 0 4.3) (layer F.Fab) hide
@@ -2434,7 +2434,7 @@
     (tags "lga land grid array")
     (path /60A981F0)
     (attr smd)
-    (fp_text reference U5 (at -0.0508 -2.159) (layer F.SilkS)
+    (fp_text reference U5 (at -0.0508 -2.159) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LIS2DH12 (at -2.159 -0.635 270) (layer F.Fab)
@@ -2497,7 +2497,7 @@
   (module myparts:SMD-2016_4P (layer F.Cu) (tedit 5FD9229D) (tstamp 60911901)
     (at 127.2896 51.8526 90)
     (path /6096B8F0)
-    (fp_text reference Y2 (at -0.065 -1.839 90) (layer F.SilkS)
+    (fp_text reference Y2 (at -0.065 -1.839 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 32MHz (at -0.1 -2 90) (layer F.Fab) hide
@@ -2857,7 +2857,7 @@
     (tags "capacitor handsolder")
     (path /6094D484)
     (attr smd)
-    (fp_text reference C5 (at 0.254 -1.1176) (layer F.SilkS)
+    (fp_text reference C5 (at 0.254 -1.1176) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 1.16) (layer F.Fab)
@@ -2890,7 +2890,7 @@
   (module myparts:2450AT18D0100E (layer F.Cu) (tedit 5FD9235B) (tstamp 60911A21)
     (at 133.7564 60.6552 270)
     (path /6099F4A4)
-    (fp_text reference AE1 (at -2.8702 2.6924 180) (layer F.SilkS)
+    (fp_text reference AE1 (at -2.8702 2.6924 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 2450AT18D0100E (at 0.8 2.1 90) (layer F.Fab)
@@ -2929,7 +2929,7 @@
     (tags "test point plated hole")
     (path /6092D8C6)
     (attr virtual)
-    (fp_text reference H17 (at 0 -2.498) (layer F.SilkS) hide
+    (fp_text reference H17 (at 0 -2.498) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LiPo+ (at 0 2.45) (layer F.Fab)
@@ -2950,7 +2950,7 @@
     (tags "test point plated hole")
     (path /6092D8CC)
     (attr virtual)
-    (fp_text reference H18 (at 0 -2.498) (layer F.SilkS) hide
+    (fp_text reference H18 (at 0 -2.498) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LiPo- (at 0 2.45) (layer F.Fab)
