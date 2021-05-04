@@ -1048,7 +1048,7 @@ AR Path="/608A57BF/6092D8C6" Ref="H?"  Part="1"
 AR Path="/6092D8C6" Ref="H17"  Part="1" 
 F 0 "H17" H 5450 849 50  0000 L CNN
 F 1 "LiPo+" H 5300 1000 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D3.0mm" H 5350 800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5350 800 50  0001 C CNN
 F 3 "~" H 5350 800 50  0001 C CNN
 	1    5350 800 
 	1    0    0    -1  
@@ -1061,7 +1061,7 @@ AR Path="/608A57BF/6092D8CC" Ref="H?"  Part="1"
 AR Path="/6092D8CC" Ref="H18"  Part="1" 
 F 0 "H18" H 5800 849 50  0000 L CNN
 F 1 "LiPo-" H 5650 1000 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D3.0mm" H 5700 800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5700 800 50  0001 C CNN
 F 3 "~" H 5700 800 50  0001 C CNN
 	1    5700 800 
 	1    0    0    -1  
@@ -1667,80 +1667,6 @@ F 3 "~" H 10550 4050 50  0001 C CNN
 $EndComp
 Text GLabel 10450 4050 0    50   Input ~ 0
 BUCK_PGOOD
-$Comp
-L Mechanical:MountingHole_Pad H13
-U 1 1 608C6FF8
-P 10350 4400
-F 0 "H13" V 10304 4550 50  0000 L CNN
-F 1 "MountingHole_Pad" V 10395 4550 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 10350 4400 50  0001 C CNN
-F 3 "~" H 10350 4400 50  0001 C CNN
-	1    10350 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H14
-U 1 1 608D1B9C
-P 10350 4550
-F 0 "H14" V 10304 4700 50  0000 L CNN
-F 1 "MountingHole_Pad" V 10395 4700 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 10350 4550 50  0001 C CNN
-F 3 "~" H 10350 4550 50  0001 C CNN
-	1    10350 4550
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H15
-U 1 1 608D1D82
-P 10350 4700
-F 0 "H15" V 10304 4850 50  0000 L CNN
-F 1 "MountingHole_Pad" V 10395 4850 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 10350 4700 50  0001 C CNN
-F 3 "~" H 10350 4700 50  0001 C CNN
-	1    10350 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H16
-U 1 1 608D215A
-P 10350 4850
-F 0 "H16" V 10304 5000 50  0000 L CNN
-F 1 "MountingHole_Pad" V 10395 5000 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 10350 4850 50  0001 C CNN
-F 3 "~" H 10350 4850 50  0001 C CNN
-	1    10350 4850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR031
-U 1 1 608D23CC
-P 10200 4900
-F 0 "#PWR031" H 10200 4650 50  0001 C CNN
-F 1 "GND" H 10205 4727 50  0000 C CNN
-F 2 "" H 10200 4900 50  0001 C CNN
-F 3 "" H 10200 4900 50  0001 C CNN
-	1    10200 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10200 4900 10200 4850
-Wire Wire Line
-	10200 4400 10250 4400
-Wire Wire Line
-	10200 4550 10250 4550
-Connection ~ 10200 4550
-Wire Wire Line
-	10200 4550 10200 4400
-Wire Wire Line
-	10250 4700 10200 4700
-Connection ~ 10200 4700
-Wire Wire Line
-	10200 4700 10200 4550
-Wire Wire Line
-	10200 4850 10250 4850
-Connection ~ 10200 4850
-Wire Wire Line
-	10200 4850 10200 4700
 Wire Wire Line
 	9000 1000 9000 1050
 Wire Wire Line
