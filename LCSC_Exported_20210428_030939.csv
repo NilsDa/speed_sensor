@@ -1,9 +1,9 @@
-﻿"LCSC Part Number","Manufacture Part Number","Manufacturer","Customer NO.","Package","Description","RoHS","Order Qty.","Min\Mult Order Qty.","Unit Price","Order Price"
-"C60485","RC0402JR-070RL","YAGEO","","0402","0Ω ±5% 1/16W 0402 Chip Resistor - Surface Mount RoHS","YES","100","100\100","$0.000200","$0.02"
-"C60490","RC0402FR-0710KL","YAGEO","","0402","10kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000400","$0.40"
-"C123655","1206B105K500CT","Walsin Tech Corp","","1206","1uF ±10% 50V X7R 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS","YES","100","20\20","$0.018300","$1.83"
-"C226166","RC-02W1001FT","FH(Guangdong Fenghua Advanced Tech)","","0402","1kΩ ±1% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000300","$0.30"
-"C226727","AC0402DR-0762KL","YAGEO","","0402","62kΩ ±0.5% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","100","50\50","$0.004100","$0.41"
-"C305012","RTT031002BTP","RALEC","","0603","10kΩ ±0.1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS","YES","20","10\10","$0.023400","$0.47"
-"C392963","TCC0402X7R104K160AT","CCTC","","0402","100nF ±10% 16V X7R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS","YES","100","100\100","$0.000800","$0.08"
-"C396772","1206F475Z250CT","Walsin Tech Corp","","1206","4.7uF -20%,+80% 25V Y5V 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS","YES","100","5\5","$0.018500","$1.85"
+﻿LCSC Part Number;Manufacture Part Number;Manufacturer;Customer NO.;Package;Description;RoHS;Order Qty.;Min\Mult Order Qty.;Unit Price;Order Price
+C60485;RC0402JR-070RL;YAGEO;;402;0Ω ±5% 1/16W 0402 Chip Resistor - Surface Mount RoHS;YES;100;100\100;$0.000200;$0.02
+C60490;RC0402FR-0710KL;YAGEO;;402;10kΩ ±1% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000400;$0.40
+C123655;1206B105K500CT;Walsin Tech Corp;;1206;1uF ±10% 50V X7R 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS;YES;100;20\20;$0.018300;$1.83
+C226166;RC-02W1001FT;FH(Guangdong Fenghua Advanced Tech);;402;1kΩ ±1% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000300;$0.30
+C226727;AC0402DR-0762KL;YAGEO;;402;62kΩ ±0.5% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;100;50\50;$0.004100;$0.41
+C305012;RTT031002BTP;RALEC;;603;10kΩ ±0.1% 0.1W ±100ppm/℃ 0603 Chip Resistor - Surface Mount RoHS;YES;20;10\10;$0.023400;$0.47
+C392963;TCC0402X7R104K160AT;CCTC;;402;100nF ±10% 16V X7R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS;YES;100;100\100;$0.000800;$0.08
+C396772;1206F475Z250CT;Walsin Tech Corp;;1206;4.7uF -20%,+80% 25V Y5V 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS;YES;100;5\5;$0.018500;$1.85

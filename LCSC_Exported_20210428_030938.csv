@@ -1,40 +1,40 @@
-﻿"LCSC Part Number","Manufacture Part Number","Manufacturer","Customer NO.","Package","Description","RoHS","Order Qty.","Min\Mult Order Qty.","Unit Price","Order Price"
-"C25170","0402WGJ0511TCE","UNI-ROYAL(Uniroyal Elec)","","0402","510Ω ±5% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000340","$0.34"
-"C25545","0402WGJ0203TCE","UNI-ROYAL(Uniroyal Elec)","","0402","20kΩ ±5% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000381","$0.38"
-"C26087","0402WGJ0105TCE","UNI-ROYAL(Uniroyal Elec)","","0402","1MΩ ±5% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","100","100\100","$0.000487","$0.05"
-"C40459","0402CG0R8C500NT","FH(Guangdong Fenghua Advanced Tech)","","0402","0.8pF ±0.25pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS","YES","100","100\100","$0.001435","$0.14"
-"C59981","C59981","BOOMELE(Boom Precision Elec)","","SMD","Header，Breakaway 20 2 Surface Mount 1.27mm SMD Pin Header & Female Header RoHS","YES","10","5\5","$0.091210","$0.91"
-"C77540","NRF52832-QFAA-R","Nordic Semicon","","QFN-48_6x6x04P","TxRx + MCU 2.4GHz 4dBm I2C, SPI, UART 1.7V~3.6V QFN-48_6x6x04P RF Transceiver ICs RoHS","YES","10","1\1","$2.406667","$24.07"
-"C81080","BQ24040DSQR","Texas Instruments","","VSON-10","VSON-10 PMIC - Battery Management RoHS","YES","10","1\1","$0.323333","$3.23"
-"C87144","JMK105BJ105KV-F","Taiyo Yuden","","0402","1uF ±10% 6.3V X5R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS","YES","1000","100\100","$0.001730","$1.73"
-"C90196","VHF100505HQ3N9ST","FH(Guangdong Fenghua Advanced Tech)","","0402","3.9nH ±0.3nH 300mA 250mΩ 0402 HF Inductors RoHS","YES","100","100\100","$0.002662","$0.27"
-"C100596","CR0402JF0163G","LIZ Elec","","0402","16kΩ ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000337","$0.34"
-"C100648","CR0402JF0391G","LIZ Elec","","0402","390Ω ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000298","$0.30"
-"C110926","LIS2DH12TR","STMicroelectronics","","LGA-12","LGA-12 Motion Sensors - Accelerometers RoHS","YES","10","1\1","$0.428333","$4.28"
-"C117835","CS1V100M-CRC54","ST(Semtech)","","SMD,4x5.4mm","SMD,4x5.4mm Aluminum Electrolytic Capacitors - SMD RoHS","YES","100","20\20","$0.019633","$1.96"
-"C140214","RC-02W103JT","FH(Guangdong Fenghua Advanced Tech)","","0402","10kΩ ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000311","$0.31"
-"C174152","RCT02470RJLF","HKR(Hong Kong Resistors)","","0402","470Ω ±5% 1/16W 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000317","$0.32"
-"C205443","ORH-G36G","Orient","","0603","Green 520~535nm 0603 Light Emitting Diodes (LED) RoHS","YES","100","50\50","$0.008750","$0.88"
-"C205445","ORH-R36A","Orient","","0603","OrangeRed 610~620nm 0603 Light Emitting Diodes (LED) RoHS","YES","100","50\50","$0.005731","$0.57"
-"C193191","ORH-B36G","Orient","","0603","Blue 455~475nm 0603 Light Emitting Diodes (LED) RoHS","YES","100","50\50","$0.005570","$0.56"
-"C258126","RC-02W202JT","FH(Guangdong Fenghua Advanced Tech)","","0402","2kΩ ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000311","$0.31"
-"C258127","RC-02W331JT","FH(Guangdong Fenghua Advanced Tech)","","0402","330Ω ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000323","$0.32"
-"C258128","RC-02W472JT","FH(Guangdong Fenghua Advanced Tech)","","0402","4.7kΩ ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000309","$0.31"
-"C258131","RC-02W473JT","FH(Guangdong Fenghua Advanced Tech)","","0402","47kΩ ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000309","$0.31"
-"C279985","CR-02JL6--100R","Viking Tech","","0402","100Ω ±5% 1/16W 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000245","$0.25"
-"C279987","CR-02JL6----1K","Viking Tech","","0402","1kΩ ±5% 1/16W 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000244","$0.24"
-"C280907","RC-02W104JT","FH(Guangdong Fenghua Advanced Tech)","","0402","100kΩ ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000310","$0.31"
-"C283385","LD2981CM33TR","STMicroelectronics","","SOT-23-5","Fixed 16V 3.3V 375mV @ 100mA SOT-23-5 Dropout Regulators(LDO) RoHS","YES","10","1\1","$0.305000","$3.05"
-"C296296","HX2301","HX(hengjiaxing)","","SOT23-3","P-Channel 20V 2.8A 1.2V @ 250uA 85mΩ @ 2.8A,4.5V 1W SOT23-3 MOSFET RoHS","YES","20","20\20","$0.019202","$0.38"
-"C296298","HX2301A","HX(hengjiaxing)","","SOT-23","P-Channel 20V 2.5A 1V @ 250uA 130mΩ @ 2.5A,4.5V 900mW SOT-23 MOSFET RoHS","YES","100","20\20","$0.014995","$1.50"
-"C310256","RC-02W271JT","FH(Guangdong Fenghua Advanced Tech)","","0402","270Ω ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS","YES","1000","100\100","$0.000276","$0.28"
-"C337189","SI2301","Shenzhen Fuman Elec","","SOT-23(SOT-23-3)","P-Channel 10V 2.2A 1V @ 250uA 120mΩ @ 1A,4.5V 1.25W SOT-23(SOT-23-3) MOSFET RoHS","YES","50","20\20","$0.015891","$0.79"
-"C386033","LDK105CBJ106MVLF","Taiyo Yuden","","0402","10uF ±20% 10V X5R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS","YES","100","50\50","$0.014612","$1.46"
-"C411722","PJM84PSA","PJSEMI","","SOT-23","P-Channel 50V 130mA 2V @ 250uA 8Ω @ 100mA,10V 225mW SOT-23 MOSFET RoHS","YES","100","20\20","$0.019222","$1.92"
-"C609900","V150J0402COG500NBT","VIIYONG","","0402","15pF ±5% 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS","YES","200","100\100","$0.001183","$0.24"
-"C648960","7D032000F01","HD","","SMD-2016_4P","32MHz ±10ppm 8pF 40Ω SMD-2016_4P SMD Crystal Resonators RoHS","YES","10","1\1","$0.094583","$0.95"
-"C696853","TCC0402COG101K500AT","CCTC","","0402","100pF ±10% 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS","YES","1000","100\100","$0.000741","$0.74"
-"C696856","TCC0402X7R103M500AT","CCTC","","0402","10nF ±20% 50V X7R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS","YES","1000","100\100","$0.000691","$0.69"
-"C696878","TCC0402COG6R0C500AT","CCTC","","0402","6pF ±0.25pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS","YES","200","100\100","$0.001255","$0.25"
-"C696907","TCC0402X7R102M500AT","CCTC","","0402","1nF ±20% 50V X7R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS","YES","1000","100\100","$0.000616","$0.62"
-"C729453","C0402X5R475M160NT","SANYEAR","","0402","4.7uF ±20% 16V X5R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS","YES","100","50\50","$0.012177","$1.22"
+﻿LCSC Part Number;Manufacture Part Number;Manufacturer;Customer NO.;Package;Description;RoHS;Order Qty.;Min\Mult Order Qty.;Unit Price;Order Price
+C25170;0402WGJ0511TCE;UNI-ROYAL(Uniroyal Elec);;402;510Ω ±5% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000340;$0.34
+C25545;0402WGJ0203TCE;UNI-ROYAL(Uniroyal Elec);;402;20kΩ ±5% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000381;$0.38
+C26087;0402WGJ0105TCE;UNI-ROYAL(Uniroyal Elec);;402;1MΩ ±5% 1/16W ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;100;100\100;$0.000487;$0.05
+C40459;0402CG0R8C500NT;FH(Guangdong Fenghua Advanced Tech);;402;0.8pF ±0.25pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS;YES;100;100\100;$0.001435;$0.14
+C59981;C59981;BOOMELE(Boom Precision Elec);;SMD;Header，Breakaway 20 2 Surface Mount 1.27mm SMD Pin Header & Female Header RoHS;YES;10;5\5;$0.091210;$0.91
+C77540;NRF52832-QFAA-R;Nordic Semicon;;QFN-48_6x6x04P;TxRx + MCU 2.4GHz 4dBm I2C, SPI, UART 1.7V~3.6V QFN-48_6x6x04P RF Transceiver ICs RoHS;YES;10;1\1;$2.406667;$24.07
+C81080;BQ24040DSQR;Texas Instruments;;VSON-10;VSON-10 PMIC - Battery Management RoHS;YES;10;1\1;$0.323333;$3.23
+C87144;JMK105BJ105KV-F;Taiyo Yuden;;402;1uF ±10% 6.3V X5R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS;YES;1000;100\100;$0.001730;$1.73
+C90196;VHF100505HQ3N9ST;FH(Guangdong Fenghua Advanced Tech);;402;3.9nH ±0.3nH 300mA 250mΩ 0402 HF Inductors RoHS;YES;100;100\100;$0.002662;$0.27
+C100596;CR0402JF0163G;LIZ Elec;;402;16kΩ ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000337;$0.34
+C100648;CR0402JF0391G;LIZ Elec;;402;390Ω ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000298;$0.30
+C110926;LIS2DH12TR;STMicroelectronics;;LGA-12;LGA-12 Motion Sensors - Accelerometers RoHS;YES;10;1\1;$0.428333;$4.28
+C117835;CS1V100M-CRC54;ST(Semtech);;SMD,4x5.4mm;SMD,4x5.4mm Aluminum Electrolytic Capacitors - SMD RoHS;YES;100;20\20;$0.019633;$1.96
+C140214;RC-02W103JT;FH(Guangdong Fenghua Advanced Tech);;402;10kΩ ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000311;$0.31
+C174152;RCT02470RJLF;HKR(Hong Kong Resistors);;402;470Ω ±5% 1/16W 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000317;$0.32
+C205443;ORH-G36G;Orient;;603;Green 520~535nm 0603 Light Emitting Diodes (LED) RoHS;YES;100;50\50;$0.008750;$0.88
+C205445;ORH-R36A;Orient;;603;OrangeRed 610~620nm 0603 Light Emitting Diodes (LED) RoHS;YES;100;50\50;$0.005731;$0.57
+C193191;ORH-B36G;Orient;;603;Blue 455~475nm 0603 Light Emitting Diodes (LED) RoHS;YES;100;50\50;$0.005570;$0.56
+C258126;RC-02W202JT;FH(Guangdong Fenghua Advanced Tech);;402;2kΩ ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000311;$0.31
+C258127;RC-02W331JT;FH(Guangdong Fenghua Advanced Tech);;402;330Ω ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000323;$0.32
+C258128;RC-02W472JT;FH(Guangdong Fenghua Advanced Tech);;402;4.7kΩ ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000309;$0.31
+C258131;RC-02W473JT;FH(Guangdong Fenghua Advanced Tech);;402;47kΩ ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000309;$0.31
+C279985;CR-02JL6--100R;Viking Tech;;402;100Ω ±5% 1/16W 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000245;$0.25
+C279987;CR-02JL6----1K;Viking Tech;;402;1kΩ ±5% 1/16W 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000244;$0.24
+C280907;RC-02W104JT;FH(Guangdong Fenghua Advanced Tech);;402;100kΩ ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000310;$0.31
+C283385;LD2981CM33TR;STMicroelectronics;;SOT-23-5;Fixed 16V 3.3V 375mV @ 100mA SOT-23-5 Dropout Regulators(LDO) RoHS;YES;10;1\1;$0.305000;$3.05
+C296296;HX2301;HX(hengjiaxing);;SOT23-3;P-Channel 20V 2.8A 1.2V @ 250uA 85mΩ @ 2.8A,4.5V 1W SOT23-3 MOSFET RoHS;YES;20;20\20;$0.019202;$0.38
+C296298;HX2301A;HX(hengjiaxing);;SOT-23;P-Channel 20V 2.5A 1V @ 250uA 130mΩ @ 2.5A,4.5V 900mW SOT-23 MOSFET RoHS;YES;100;20\20;$0.014995;$1.50
+C310256;RC-02W271JT;FH(Guangdong Fenghua Advanced Tech);;402;270Ω ±5% 1/16W ±200ppm/℃ 0402 Chip Resistor - Surface Mount RoHS;YES;1000;100\100;$0.000276;$0.28
+C337189;SI2301;Shenzhen Fuman Elec;;SOT-23(SOT-23-3);P-Channel 10V 2.2A 1V @ 250uA 120mΩ @ 1A,4.5V 1.25W SOT-23(SOT-23-3) MOSFET RoHS;YES;50;20\20;$0.015891;$0.79
+C386033;LDK105CBJ106MVLF;Taiyo Yuden;;402;10uF ±20% 10V X5R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS;YES;100;50\50;$0.014612;$1.46
+C411722;PJM84PSA;PJSEMI;;SOT-23;P-Channel 50V 130mA 2V @ 250uA 8Ω @ 100mA,10V 225mW SOT-23 MOSFET RoHS;YES;100;20\20;$0.019222;$1.92
+C609900;V150J0402COG500NBT;VIIYONG;;402;15pF ±5% 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS;YES;200;100\100;$0.001183;$0.24
+C648960;7D032000F01;HD;;SMD-2016_4P;32MHz ±10ppm 8pF 40Ω SMD-2016_4P SMD Crystal Resonators RoHS;YES;10;1\1;$0.094583;$0.95
+C696853;TCC0402COG101K500AT;CCTC;;402;100pF ±10% 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS;YES;1000;100\100;$0.000741;$0.74
+C696856;TCC0402X7R103M500AT;CCTC;;402;10nF ±20% 50V X7R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS;YES;1000;100\100;$0.000691;$0.69
+C696878;TCC0402COG6R0C500AT;CCTC;;402;6pF ±0.25pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS;YES;200;100\100;$0.001255;$0.25
+C696907;TCC0402X7R102M500AT;CCTC;;402;1nF ±20% 50V X7R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS;YES;1000;100\100;$0.000616;$0.62
+C729453;C0402X5R475M160NT;SANYEAR;;402;4.7uF ±20% 16V X5R 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS;YES;100;50\50;$0.012177;$1.22
