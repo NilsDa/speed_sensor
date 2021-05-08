@@ -1,4 +1,4 @@
-19872525837933109
+19875766341868023
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75956,6 +75956,13 @@ ST1PS02CQTR_breitePins
 0
 12
 12
+Package_TQFN-12
+ST1PS02CQTR_breitePins_zugross
+
+
+0
+12
+12
 Package_WSON-10
 BQ24040DSQR
 
@@ -86470,3 +86477,10 @@ BGA 28 0.4
 0
 20
 20
+myparts
+USB_C_Receptacle_Palconn_UTC16-G_breitePins
+http://www.palpilot.com/wp-content/uploads/2017/05/UTC027-GKN-OR-Rev-A.pdf
+USB C Type-C Receptacle USB2.0
+0
+20
+17

@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 4)
-    (tracks 5)
+    (tracks 11)
     (zones 0)
     (modules 67)
     (nets 81)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.29337)
+    (last_trace_width 0.25)
     (user_trace_width 0.15)
     (user_trace_width 0.2)
     (user_trace_width 0.29337)
@@ -321,9 +321,6 @@
     (fp_text value SWD (at 0 -4.235 -90) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text user %R (at 0 0) (layer B.Fab)
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-    )
     (fp_line (start 1.705 -3.175) (end -1.705 -3.175) (layer B.Fab) (width 0.1))
     (fp_line (start -1.27 3.175) (end 1.705 3.175) (layer B.Fab) (width 0.1))
     (fp_line (start -1.705 -3.175) (end -1.705 2.74) (layer B.Fab) (width 0.1))
@@ -370,6 +367,9 @@
     (fp_line (start -4.3 -3.7) (end 4.3 -3.7) (layer B.CrtYd) (width 0.05))
     (fp_line (start 4.3 -3.7) (end 4.3 3.7) (layer B.CrtYd) (width 0.05))
     (fp_line (start 4.3 3.7) (end -4.3 3.7) (layer B.CrtYd) (width 0.05))
+    (fp_text user %R (at 0 0) (layer B.Fab)
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
     (pad 10 smd rect (at 1.95 -2.54 90) (size 2.4 0.74) (layers B.Cu B.Paste B.Mask)
       (net 34 ~RESET~))
     (pad 9 smd rect (at -1.95 -2.54 90) (size 2.4 0.74) (layers B.Cu B.Paste B.Mask)
@@ -409,9 +409,6 @@
     (fp_text value TP1941U (at 0 2 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 0) (layer F.Fab)
-      (effects (font (size 0.5 0.5) (thickness 0.075)))
-    )
     (fp_line (start 0.7 -1.16) (end -1.2 -1.16) (layer F.SilkS) (width 0.12))
     (fp_line (start -0.7 1.16) (end 0.7 1.16) (layer F.SilkS) (width 0.12))
     (fp_line (start 2.4 1.4) (end 2.4 -1.4) (layer F.CrtYd) (width 0.05))
@@ -423,6 +420,9 @@
     (fp_line (start 0.675 -1.1) (end 0.675 1.1) (layer F.Fab) (width 0.1))
     (fp_line (start 0.675 1.1) (end -0.675 1.1) (layer F.Fab) (width 0.1))
     (fp_line (start -0.175 -1.1) (end -0.675 -0.6) (layer F.Fab) (width 0.1))
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.075)))
+    )
     (pad 5 smd rect (at 1.33 -0.65 90) (size 1.5 0.4) (layers F.Cu F.Paste F.Mask)
       (net 64 +BATT))
     (pad 4 smd rect (at 1.33 0.65 90) (size 1.5 0.4) (layers F.Cu F.Paste F.Mask)
@@ -482,7 +482,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 60917D9E)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 60942947)
     (at 44.6035 37.3126)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
@@ -518,7 +518,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 60917DCE)
+  (module Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 60942977)
     (at 48.1065 37.3126 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
@@ -1067,7 +1067,7 @@
     (fp_text reference C18 (at 0.127 -1.143) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 12p (at 0 1.16) (layer F.Fab) hide
+    (fp_text value 8p (at 0 1.16) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.08 0.46) (end -1.08 0.46) (layer F.CrtYd) (width 0.05))
@@ -1103,7 +1103,7 @@
     (fp_text reference C19 (at 0 -1.143) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 12p (at 0 1.16) (layer F.Fab) hide
+    (fp_text value 8p (at 0 1.16) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.1))
@@ -1203,7 +1203,7 @@
   )
 
   (module Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEF0) (tstamp 608CEDFE)
-    (at 42.926 43.434 90)
+    (at 41.8 30.4 90)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (path /6089BF57)
@@ -1240,7 +1240,7 @@
     )
   )
 
-  (module Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEF0) (tstamp 608C822B)
+  (module Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEF0) (tstamp 609428DD)
     (at 45.593 41.9608)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
@@ -1278,7 +1278,7 @@
     )
   )
 
-  (module Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEF0) (tstamp 608C823E)
+  (module Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEF0) (tstamp 60942913)
     (at 50.292 40.2476 270)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
@@ -1543,15 +1543,15 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 608CED51)
-    (at 45.72 43.942)
+    (at 41.8 34.1 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /6089BF5D)
     (attr smd)
-    (fp_text reference R1 (at -2.7705 0) (layer F.Fab)
+    (fp_text reference R1 (at -2.7705 0 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 200 (at 0 1.43) (layer F.Fab) hide
+    (fp_text value 200 (at 0 1.43 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer F.Fab) (width 0.1))
@@ -1564,12 +1564,12 @@
     (fp_line (start -1.65 -0.73) (end 1.65 -0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 -0.73) (end 1.65 0.73) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1.65 0.73) (end -1.65 0.73) (layer F.CrtYd) (width 0.05))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
-    (pad 2 smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 63 GND))
-    (pad 1 smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.9125 0 270) (size 0.975 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 12 "Net-(D1-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -1578,7 +1578,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 60940C83)
+  (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 60942B2A)
     (at 42.926 39.878 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -1614,7 +1614,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 608C8400)
+  (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 60942AFA)
     (at 51.6871 37.338 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -1650,7 +1650,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 608C8411)
+  (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 60942B8A)
     (at 48.514 42.672 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -1686,7 +1686,7 @@
     )
   )
 
-  (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 608C8422)
+  (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 60942B5A)
     (at 50.292 43.688 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
@@ -1974,7 +1974,7 @@
     )
   )
 
-  (module Package_WSON-10:BQ24040DSQR_breitePins (layer F.Cu) (tedit 0) (tstamp 608C850B)
+  (module Package_WSON-10:BQ24040DSQR_breitePins (layer F.Cu) (tedit 0) (tstamp 60942A08)
     (at 46.4058 39.5986)
     (path /608A697A)
     (fp_text reference U1 (at 0 0) (layer F.SilkS)
@@ -2350,7 +2350,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DBAD4)
-    (at 105.918 74.2442 180)
+    (at 91.218 62.1442 180)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /60DA2D58)
@@ -2380,7 +2380,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DA45B)
-    (at 109.728 74.2442 180)
+    (at 95.028 62.1442 180)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /60DA2D5E)
@@ -2410,7 +2410,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DA467)
-    (at 113.538 74.2442 180)
+    (at 98.838 62.1442 180)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /60DA2D64)
@@ -2440,7 +2440,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DA473)
-    (at 117.475 74.2442 180)
+    (at 102.775 62.1442 180)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /60DA2D6A)
@@ -2470,7 +2470,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DC8BB)
-    (at 118.618 33.5407)
+    (at 90.018 32.3407)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /609B0299)
@@ -2500,7 +2500,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DC903)
-    (at 122.428 33.5407)
+    (at 93.828 32.3407)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /609B3664)
@@ -2530,7 +2530,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DA5C3)
-    (at 121.412 74.2442 180)
+    (at 106.712 62.1442 180)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /609B38D9)
@@ -2560,7 +2560,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DC96F)
-    (at 137.668 33.5026)
+    (at 109.068 32.3026)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /60DBA536)
@@ -2590,7 +2590,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DC927)
-    (at 133.858 33.5026)
+    (at 105.258 32.3026)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /60DBA840)
@@ -2620,7 +2620,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DC8DF)
-    (at 130.048 33.5026)
+    (at 101.448 32.3026)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /60DBAC0F)
@@ -2650,7 +2650,7 @@
   )
 
   (module TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded (layer F.Cu) (tedit 5A0F774F) (tstamp 608DC94B)
-    (at 126.238 33.5026)
+    (at 97.638 32.3026)
     (descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
     (tags "test point wire loop bead")
     (path /60DBAE07)
@@ -2715,7 +2715,7 @@
     )
   )
 
-  (module TestPoint:TestPoint_Plated_Hole_D2.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 6092A87D)
+  (module TestPoint:TestPoint_Plated_Hole_D2.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 60942BC0)
     (at 48.006 33.528)
     (descr "Plated Hole as test Point, diameter 2.0mm")
     (tags "test point plated hole")
@@ -3066,6 +3066,12 @@
   (gr_line (start 33.142 36.35) (end 68.142 36.35) (layer Edge.Cuts) (width 0.05))
 
   (segment (start 61.1775 42.848) (end 62.4195 42.848) (width 0.29337) (layer F.Cu) (net 9))
+  (segment (start 60.7013 44.51284) (end 60.7013 43.7987) (width 0.2) (layer F.Cu) (net 9))
+  (segment (start 61.1775 43.3225) (end 61.1775 42.848) (width 0.2) (layer F.Cu) (net 9))
+  (segment (start 60.7013 43.7987) (end 61.1775 43.3225) (width 0.2) (layer F.Cu) (net 9))
+  (segment (start 60.3013 44.51284) (end 60.3013 43.7013) (width 0.2) (layer F.Cu) (net 63))
+  (segment (start 60.0425 43.4425) (end 60.0425 42.848) (width 0.2) (layer F.Cu) (net 63))
+  (segment (start 60.3013 43.7013) (end 60.0425 43.4425) (width 0.2) (layer F.Cu) (net 63))
   (segment (start 64.172434 42.848) (end 64.749717 42.270717) (width 0.29337) (layer F.Cu) (net 80))
   (segment (start 63.5645 42.848) (end 64.172434 42.848) (width 0.29337) (layer F.Cu) (net 80))
   (segment (start 64.749717 42.250283) (end 66.2 40.8) (width 0.29337) (layer F.Cu) (net 80))
