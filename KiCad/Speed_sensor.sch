@@ -222,11 +222,11 @@ Wire Wire Line
 Connection ~ 3750 3100
 Text Notes 2300 2900 0    50   ~ 0
 Microcontroller
-Text GLabel 5300 5750 2    50   Input ~ 0
+Text GLabel 5300 6850 2    50   Input ~ 0
 SPI_01_CS
-Text GLabel 5300 5650 2    50   Input ~ 0
+Text GLabel 5300 7250 2    50   Input ~ 0
 SPI_MISO
-Text GLabel 5300 5550 2    50   Input ~ 0
+Text GLabel 5300 7350 2    50   Input ~ 0
 SPI_MOSI
 Text Notes 6000 3700 0    50   ~ 0
 Beschleunigungssensor
@@ -316,12 +316,12 @@ U 1 1 609B0299
 P 10550 3850
 F 0 "H1" V 10504 4000 50  0000 L CNN
 F 1 "VOUT" V 10595 4000 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10550 3850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10550 3850 50  0001 C CNN
 F 3 "~" H 10550 3850 50  0001 C CNN
 	1    10550 3850
 	0    1    1    0   
 $EndComp
-Text GLabel 5300 5850 2    50   Input ~ 0
+Text GLabel 5300 6950 2    50   Input ~ 0
 SPI_SCK
 Text GLabel 5300 6150 2    50   Input ~ 0
 SWO
@@ -1053,8 +1053,6 @@ Text GLabel 5300 4350 2    50   Input ~ 0
 XL1
 Text GLabel 5300 4450 2    50   Input ~ 0
 XL2
-Text GLabel 5300 4550 2    50   Input ~ 0
-AIN0
 Text GLabel 5300 4650 2    50   Input ~ 0
 AIN1
 Text GLabel 5300 4750 2    50   Input ~ 0
@@ -1240,9 +1238,9 @@ F 3 "" H 7550 4400 25  0001 C CNN
 $EndComp
 Text GLabel 7200 4250 0    50   Input ~ 0
 SPI_01_CS
-Text GLabel 5300 5950 2    50   Input ~ 0
+Text GLabel 5300 7050 2    50   Input ~ 0
 ACCEL_INT1
-Text GLabel 5300 6050 2    50   Input ~ 0
+Text GLabel 5300 7150 2    50   Input ~ 0
 ACCEL_INT2
 Text GLabel 7900 4450 2    50   Input ~ 0
 ACCEL_INT1
@@ -1475,32 +1473,13 @@ Wire Wire Line
 Connection ~ 10450 2900
 Wire Wire Line
 	10450 2900 10650 2900
-Text GLabel 5300 7050 2    50   Input ~ 0
-AIN4
-Text GLabel 5300 7150 2    50   Input ~ 0
-AIN5
-Text GLabel 5300 7250 2    50   Input ~ 0
-AIN6
-Text GLabel 5300 7350 2    50   Input ~ 0
-AIN7
-$Comp
-L Mechanical:MountingHole_Pad H5
-U 1 1 60DA2D58
-P 9300 3750
-F 0 "H5" V 9254 3900 50  0000 L CNN
-F 1 "AIN0" V 9345 3900 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 3750 50  0001 C CNN
-F 3 "~" H 9300 3750 50  0001 C CNN
-	1    9300 3750
-	0    1    1    0   
-$EndComp
 $Comp
 L Mechanical:MountingHole_Pad H6
 U 1 1 60DA2D5E
 P 9300 3900
 F 0 "H6" V 9254 4050 50  0000 L CNN
 F 1 "AIN1" V 9345 4050 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 3900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9300 3900 50  0001 C CNN
 F 3 "~" H 9300 3900 50  0001 C CNN
 	1    9300 3900
 	0    1    1    0   
@@ -1511,7 +1490,7 @@ U 1 1 60DA2D64
 P 9300 4050
 F 0 "H7" V 9254 4200 50  0000 L CNN
 F 1 "AIN2" V 9345 4200 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 4050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9300 4050 50  0001 C CNN
 F 3 "~" H 9300 4050 50  0001 C CNN
 	1    9300 4050
 	0    1    1    0   
@@ -1522,71 +1501,17 @@ U 1 1 60DA2D6A
 P 9300 4200
 F 0 "H8" V 9254 4350 50  0000 L CNN
 F 1 "AIN3" V 9345 4350 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 4200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9300 4200 50  0001 C CNN
 F 3 "~" H 9300 4200 50  0001 C CNN
 	1    9300 4200
 	0    1    1    0   
 $EndComp
-$Comp
-L Mechanical:MountingHole_Pad H9
-U 1 1 60DBA536
-P 9300 4350
-F 0 "H9" V 9254 4500 50  0000 L CNN
-F 1 "AIN4" V 9345 4500 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 4350 50  0001 C CNN
-F 3 "~" H 9300 4350 50  0001 C CNN
-	1    9300 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H10
-U 1 1 60DBA840
-P 9300 4500
-F 0 "H10" V 9254 4650 50  0000 L CNN
-F 1 "AIN5" V 9345 4650 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 4500 50  0001 C CNN
-F 3 "~" H 9300 4500 50  0001 C CNN
-	1    9300 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H11
-U 1 1 60DBAC0F
-P 9300 4650
-F 0 "H11" V 9250 4800 50  0000 L CNN
-F 1 "AIN6" V 9345 4800 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 4650 50  0001 C CNN
-F 3 "~" H 9300 4650 50  0001 C CNN
-	1    9300 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H12
-U 1 1 60DBAE07
-P 9300 4800
-F 0 "H12" V 9254 4950 50  0000 L CNN
-F 1 "AIN7" V 9345 4950 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 9300 4800 50  0001 C CNN
-F 3 "~" H 9300 4800 50  0001 C CNN
-	1    9300 4800
-	0    1    1    0   
-$EndComp
-Text GLabel 9200 3750 0    50   Input ~ 0
-AIN0
 Text GLabel 9200 3900 0    50   Input ~ 0
 AIN1
 Text GLabel 9200 4050 0    50   Input ~ 0
 AIN2
 Text GLabel 9200 4200 0    50   Input ~ 0
 AIN3
-Text GLabel 9200 4350 0    50   Input ~ 0
-AIN4
-Text GLabel 9200 4500 0    50   Input ~ 0
-AIN5
-Text GLabel 9200 4650 0    50   Input ~ 0
-AIN6
-Text GLabel 9200 4800 0    50   Input ~ 0
-AIN7
 NoConn ~ 5300 5250
 NoConn ~ 5300 5350
 NoConn ~ 5300 5450
@@ -1596,28 +1521,13 @@ NoConn ~ 5300 6450
 NoConn ~ 5300 6550
 NoConn ~ 5300 6650
 NoConn ~ 5300 6750
-NoConn ~ 5300 6850
-NoConn ~ 5300 6950
-Text GLabel 10450 4200 0    50   Input ~ 0
-SPI_01_CS
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 609B38D9
-P 10550 4200
-F 0 "H4" V 10504 4350 50  0000 L CNN
-F 1 "SPI_01_CSB" V 10595 4350 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10550 4200 50  0001 C CNN
-F 3 "~" H 10550 4200 50  0001 C CNN
-	1    10550 4200
-	0    1    1    0   
-$EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 609B3664
 P 10550 4050
 F 0 "H3" V 10504 4200 50  0000 L CNN
 F 1 "PGOOD" V 10595 4200 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 10550 4050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10550 4050 50  0001 C CNN
 F 3 "~" H 10550 4050 50  0001 C CNN
 	1    10550 4050
 	0    1    1    0   
@@ -1848,17 +1758,6 @@ F 3 "" H 2800 5350 50  0001 C CNN
 	1    2800 5350
 	1    0    0    -1  
 $EndComp
-$Comp
-L pspice:OPAMP U2
-U 1 1 60996A00
-P 8000 2700
-F 0 "U2" H 7950 2900 50  0000 L CNN
-F 1 "OPAMP" H 7950 2500 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 8000 2700 50  0001 C CNN
-F 3 "~" H 8000 2700 50  0001 C CNN
-	1    8000 2700
-	1    0    0    -1  
-$EndComp
 Text Notes 7600 2200 0    50   ~ 0
 OpAmp just in case
 $Comp
@@ -1885,9 +1784,6 @@ F 3 "" H 7900 3000 50  0001 C CNN
 	1    7900 3000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8300 2700
-NoConn ~ 7700 2600
-NoConn ~ 7700 2800
 Wire Notes Line
 	7500 3600 7500 1950
 Wire Notes Line
@@ -1967,4 +1863,61 @@ Wire Notes Line
 	500  2800 5950 2800
 Wire Notes Line
 	2250 1950 2250 2800
+$Comp
+L Amplifier_Operational:LMV321 U2
+U 1 1 60AA1225
+P 8000 2700
+F 0 "U2" H 8100 2850 50  0000 L CNN
+F 1 "LMV321" H 8050 2550 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 8000 2700 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 8000 2700 50  0001 C CNN
+	1    8000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TP3
+U 1 1 60AC87A1
+P 8400 2700
+F 0 "TP3" H 8448 2746 50  0000 L CNN
+F 1 "OUT" H 8448 2655 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8600 2700 50  0001 C CNN
+F 3 "~" H 8600 2700 50  0001 C CNN
+	1    8400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Small TP1
+U 1 1 60AD075A
+P 7550 2600
+F 0 "TP1" H 7550 2650 50  0000 L CNN
+F 1 "IN+" H 7550 2550 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7750 2600 50  0001 C CNN
+F 3 "~" H 7750 2600 50  0001 C CNN
+	1    7550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2600 7700 2600
+$Comp
+L Connector:TestPoint_Small TP2
+U 1 1 60AD8A64
+P 7550 2800
+F 0 "TP2" H 7550 2850 50  0000 L CNN
+F 1 "IN-" H 7550 2750 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7750 2800 50  0001 C CNN
+F 3 "~" H 7750 2800 50  0001 C CNN
+	1    7550 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2800 7700 2800
+Wire Wire Line
+	8400 2700 8300 2700
+NoConn ~ 5300 5550
+NoConn ~ 5300 5650
+NoConn ~ 5300 5750
+NoConn ~ 5300 5850
+NoConn ~ 5300 5950
+NoConn ~ 5300 6050
+NoConn ~ 5300 4550
 $EndSCHEMATC
