@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\nils_\OneDrive\Documents\Projekte\Speed_sensor\speed_sensor\KiCad\Speed_sensor.sch)
-    (date "12/05/2021 23:34:40")
+    (date "19/05/2021 21:28:08")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -343,7 +343,7 @@
       (tstamp 60C90235))
     (comp (ref L1)
       (value 2,2u)
-      (footprint Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder)
+      (footprint Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder)
       (datasheet ~)
       (libsource (lib Device) (part L_Small) (description "Inductor, small symbol"))
       (sheetpath (names /) (tstamps /))
