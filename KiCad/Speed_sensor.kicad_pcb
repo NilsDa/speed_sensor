@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 7)
     (tracks 767)
     (zones 0)
     (modules 64)
@@ -2865,7 +2865,7 @@
     (tags "inductor handsolder")
     (path /60CCE7A3)
     (attr smd)
-    (fp_text reference L1 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference L1 (at 0 -1.65) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 2,2u (at 0 1.65) (layer F.Fab)
@@ -2895,6 +2895,15 @@
     )
   )
 
+  (gr_text . (at 37.69 52.1) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text GND (at 44.01 44.73) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (gr_text + (at 40.79 47.55) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 33.142 56.35) (end 33.142 36.35) (layer Edge.Cuts) (width 0.05) (tstamp 60911E59))
   (gr_line (start 68.142 56.35) (end 33.142 56.35) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 68.142 36.35) (end 68.142 56.35) (layer Edge.Cuts) (width 0.05) (tstamp 6093AC23))
