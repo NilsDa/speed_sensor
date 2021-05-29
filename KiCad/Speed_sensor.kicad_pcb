@@ -2959,7 +2959,7 @@
   (gr_text . (at 37.69 52.1) (layer F.SilkS) (tstamp 60A8FB1B)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text GND (at 43.7515 44.831) (layer F.SilkS)
+  (gr_text GND (at 44.38 43.83) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )
   (gr_text + (at 40.79 47.55) (layer F.SilkS)
