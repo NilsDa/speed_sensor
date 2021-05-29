@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\nils_\OneDrive\Documents\Projekte\Speed_sensor\speed_sensor\KiCad\Speed_sensor.sch)
-    (date "19/05/2021 21:28:08")
+    (date "29/05/2021 12:50:22")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -156,7 +156,7 @@
       (tstamp 609A8A46))
     (comp (ref C3)
       (value 100n)
-      (footprint Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder)
+      (footprint Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder)
       (datasheet ~)
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
