@@ -4,5 +4,6 @@
 *.so
 *.dylib
 Software/Workspace/device/
+Software/Workspace/build/
 Software/Workspace/Speed_Sensor_workspace.code-workspace
 Software/Workspace/.vscode/
