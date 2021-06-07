@@ -23,8 +23,8 @@ message(STATUS "CMAKE_TOOLCHAIN_FILE is: ${CMAKE_TOOLCHAIN_FILE}")
 # List of source files
 set(SRC_FILES
         src/main.c
-        device/Startup/ses_startup_nrf52.s
-        device/Source/system_nrf52.c
+        device/modules/nrfx/mdk/gcc_startup_nrf52.s
+        device/modules/nrfx/mdk/system_nrf52.c
         )
 
 # Build the executable based on the source files
