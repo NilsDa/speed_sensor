@@ -10,8 +10,7 @@ set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/arm-none-eabi-gcc.cmake)
 # Setup project, output and linker file
 project(Speed_Sensor)
 set(EXECUTABLE ${PROJECT_NAME}.elf)
-set(LINKER_FILE ${CMAKE_SOURCE_DIR}/device/Linker/ses_nrf52832_xxaa.icf)
-
+set(LINKER_FILE ${CMAKE_SOURCE_DIR}/device/modules/nrfx/mdk/nrf52832_xxaa.ld)
 enable_language(C ASM)
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_STANDARD_REQUIRED ON)
