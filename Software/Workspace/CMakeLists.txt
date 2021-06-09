@@ -33,13 +33,14 @@ add_executable(${EXECUTABLE} ${SRC_FILES})
 target_compile_definitions(${EXECUTABLE} PRIVATE
         -DCPU_MK22FN512VLH12
         -DCPU_MK22FN512VLH12_cm4
+        -DNRF52832_XXAA
         )
 
 # List of includ directories
 target_include_directories(${EXECUTABLE} PRIVATE
         src 
         device
-        CMSIS
+        device/components/toolchain/cmsis/include
         )
 
 # Compiler options
