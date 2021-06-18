@@ -31,9 +31,8 @@ add_executable(${EXECUTABLE} ${SRC_FILES})
 
 # List of compiler defines, prefix with -D compiler option
 target_compile_definitions(${EXECUTABLE} PRIVATE
-        -DCPU_MK22FN512VLH12
-        -DCPU_MK22FN512VLH12_cm4
         -DNRF52832_XXAA
+        -DNRF52
         )
 
 # List of includ directories
