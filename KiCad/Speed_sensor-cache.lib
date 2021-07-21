@@ -445,11 +445,11 @@ X V+ 5 300 100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# myparts_2450AT18D0100E_right
+# Speed_sensor-rescue_2450AT18D0100E_right-myparts
 #
-DEF myparts_2450AT18D0100E_right AE 0 10 Y Y 1 F N
+DEF Speed_sensor-rescue_2450AT18D0100E_right-myparts AE 0 10 Y Y 1 F N
 F0 "AE" -150 100 60 H V C CNN
-F1 "myparts_2450AT18D0100E_right" 150 -200 60 H V C CNN
+F1 "Speed_sensor-rescue_2450AT18D0100E_right-myparts" 150 -200 60 H V C CNN
 F2 "mylib:2450AT18D0100E" 150 -50 60 H I C CNN
 F3 "" 300 0 60 H I C CNN
 $FPLIST

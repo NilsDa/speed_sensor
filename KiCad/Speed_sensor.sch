@@ -1849,7 +1849,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 5250 2300 5300
 $Comp
-L myparts:2450AT18D0100E_right AE1
+L Speed_sensor-rescue:2450AT18D0100E_right-myparts AE1
 U 1 1 60BDEC15
 P 1900 5150
 F 0 "AE1" H 1925 5407 60  0000 C CNN
@@ -1920,4 +1920,28 @@ NoConn ~ 5300 5850
 NoConn ~ 5300 5950
 NoConn ~ 5300 6050
 NoConn ~ 5300 4550
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 60F8D501
+P 10550 4400
+F 0 "H2" V 10504 4550 50  0000 L CNN
+F 1 "5V" V 10595 4550 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10550 4400 50  0001 C CNN
+F 3 "~" H 10550 4400 50  0001 C CNN
+	1    10550 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60F94F98
+P 10450 4400
+AR Path="/608A57BF/60F94F98" Ref="#PWR?"  Part="1" 
+AR Path="/60F94F98" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10450 4250 50  0001 C CNN
+F 1 "+5V" H 10465 4573 50  0000 C CNN
+F 2 "" H 10450 4400 50  0001 C CNN
+F 3 "" H 10450 4400 50  0001 C CNN
+	1    10450 4400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
