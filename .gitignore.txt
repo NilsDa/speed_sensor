@@ -1,7 +1,0 @@
-*.exe
-*.exe~
-*.dll
-*.so
-#*.dylib
-Software/Workspace/device/
-Software/Workspace/Speed_Sensor_workspace.code-workspace
