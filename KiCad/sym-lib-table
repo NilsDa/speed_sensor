@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name myparts)(type Legacy)(uri C:/Users/nils_/OneDrive/Documents/Projekte/Speed_sensor/speed_sensor/myparts.lib)(options "")(descr ""))
+  (lib (name Speed_sensor-rescue)(type Legacy)(uri ${KIPRJMOD}/Speed_sensor-rescue.lib)(options "")(descr ""))
 )
