@@ -52,7 +52,7 @@ set(SRC_FILES
         device/components/libraries/experimental_section_vars/nrf_section_iter.c
         device/components/libraries/sortlist/nrf_sortlist.c
         device/components/libraries/strerror/nrf_strerror.c
-        device/integration/nrfx/legacy/nrf_drv_uart.c
+        #device/integration/nrfx/legacy/nrf_drv_uart.c
         device/modules/nrfx/soc/nrfx_atomic.c
         device/modules/nrfx/drivers/src/nrfx_gpiote.c
         device/modules/nrfx/drivers/src/prs/nrfx_prs.c
@@ -88,7 +88,7 @@ target_compile_definitions(${EXECUTABLE} PRIVATE
 target_include_directories(${EXECUTABLE} PRIVATE
         src 
         device/config/nrf52832/config
-        device/components/fprintf
+        device/external/fprintf
         device/components/libraries/experimental_section_vars
         device/components/libraries/hardfault/nrf52
         device/components/libraries/delay
@@ -98,6 +98,7 @@ target_include_directories(${EXECUTABLE} PRIVATE
         device/components/libraries/log
         device/components/libraries/memobj
         device/components/libraries/atomic
+        device/components/libraries/atomic_fifo
         device/components
         device/modules/nrfx/mdk
         device/components/libraries/scheduler
