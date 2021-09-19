@@ -1,4 +1,4 @@
-19875766341868023
+19856327550540360
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75942,41 +75942,6 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
-Package_TQFN-12
-ST1PS02CQTR
-
-
-0
-12
-12
-Package_TQFN-12
-ST1PS02CQTR_breitePins
-
-
-0
-12
-12
-Package_TQFN-12
-ST1PS02CQTR_breitePins_zugross
-
-
-0
-12
-12
-Package_WSON-10
-BQ24040DSQR
-
-
-0
-12
-12
-Package_WSON-10
-BQ24040DSQR_breitePins
-
-
-0
-12
-12
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -86435,52 +86400,3 @@ varistor SIOV
 0
 2
 2
-myparts
-2450AT18D0100E
-
-
-0
-4
-4
-myparts
-LGA-12_2x2mm_P0.5mm_Handsolder
-LGA12
-lga land grid array
-0
-12
-12
-myparts
-QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm_Handsolder
-QFN, 48 Pin (http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.3.pdf#page=67), generated with kicad-footprint-generator ipc_noLead_generator.py
-QFN NoLead
-0
-58
-49
-myparts
-SMD-2016_4P
-
-
-0
-4
-4
-myparts
-TestPoint_2Pads_Pitch1mm_Drill0.4mm
-
-
-0
-2
-2
-myparts
-Texas_DSBGA-20_1.6x2.0mm_Layout4x5_P0.4mm
-Texas Instruments, DSBGA, 3.0x1.9x0.625mm, 28 ball 7x4 area grid, NSMD pad definition (http://www.ti.com/lit/ds/symlink/bq51050b.pdf, http://www.ti.com/lit/an/snva009ag/snva009ag.pdf)
-BGA 28 0.4
-0
-20
-20
-myparts
-USB_C_Receptacle_Palconn_UTC16-G_breitePins
-http://www.palpilot.com/wp-content/uploads/2017/05/UTC027-GKN-OR-Rev-A.pdf
-USB C Type-C Receptacle USB2.0
-0
-20
-17

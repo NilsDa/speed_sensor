@@ -52,12 +52,14 @@ set(SRC_FILES
         device/components/libraries/experimental_section_vars/nrf_section_iter.c
         device/components/libraries/sortlist/nrf_sortlist.c
         device/components/libraries/strerror/nrf_strerror.c
-        #device/integration/nrfx/legacy/nrf_drv_uart.c
+        device/integration/nrfx/legacy/nrf_drv_uart.c
+        device/integration/nrfx/legacy/nrf_drv_spi.c
         device/modules/nrfx/soc/nrfx_atomic.c
         device/modules/nrfx/drivers/src/nrfx_gpiote.c
         device/modules/nrfx/drivers/src/prs/nrfx_prs.c
         device/modules/nrfx/drivers/src/nrfx_uart.c
         device/modules/nrfx/drivers/src/nrfx_uarte.c
+        device/modules/nrfx/drivers/src/nrfx_spi.c
         device/components/ant/ant_channel_config/ant_channel_config.c
         device/components/libraries/bsp/bsp.c
         device/external/segger_rtt/SEGGER_RTT.c
@@ -67,6 +69,8 @@ set(SRC_FILES
         device/components/softdevice/common/nrf_sdh.c
         device/components/softdevice/common/nrf_sdh_ant.c
         device/components/softdevice/common/nrf_sdh_soc.c
+        device/components/libraries/spi_mngr/nrf_spi_mngr.c
+        device/components/drivers_meine/lis2dh12_spi.c
         )
 
 # Build the executable based on the source files
@@ -104,6 +108,7 @@ target_include_directories(${EXECUTABLE} PRIVATE
         device/components/libraries/scheduler
         device/components/libraries/strerror
         device/integration/nrfx
+        device/integration/nrfx/legacy
         device/modules/nrfx/drivers/include
         device/components/softdevice/s212/headers/nrf52
         device/components/softdevice/s212/headers
@@ -115,6 +120,7 @@ target_include_directories(${EXECUTABLE} PRIVATE
         device/external/segger_rtt
         device/components/libraries/sortlist
         device/modules/nrfx/hal
+        device/modules/nrfx/templates/nrf52832
         device/components/libraries/mutex
         device/components/libraries/pwr_mgmt
         device/components/libraries/bsp
@@ -123,6 +129,9 @@ target_include_directories(${EXECUTABLE} PRIVATE
         device/components/libraries/button
         device/integration/nrfx/legacy
         device/components/libraries/util
+        
+        device/components/drivers_meine
+        device/components/libraries/spi_mngr
         )
 
 # Compiler options

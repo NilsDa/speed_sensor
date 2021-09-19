@@ -217,12 +217,12 @@ typedef struct
     .mosi_pin     = NRF_DRV_SPI_PIN_NOT_USED,                \
     .miso_pin     = NRF_DRV_SPI_PIN_NOT_USED,                \
     .ss_pin       = NRF_DRV_SPI_PIN_NOT_USED,                \
-    .irq_priority = SPI_DEFAULT_CONFIG_IRQ_PRIORITY,         \
+    .irq_priority = NRFX_SPI_DEFAULT_CONFIG_IRQ_PRIORITY,    \
     .orc          = 0xFF,                                    \
     .frequency    = NRF_DRV_SPI_FREQ_4M,                     \
     .mode         = NRF_DRV_SPI_MODE_0,                      \
     .bit_order    = NRF_DRV_SPI_BIT_ORDER_MSB_FIRST,         \
-}
+}       //.irq_priority = SPI_DEFAULT_CONFIG_IRQ_PRIORITY,
 
 #define NRF_DRV_SPI_FLAG_TX_POSTINC          (1UL << 0) /**< TX buffer address incremented after transfer. */
 #define NRF_DRV_SPI_FLAG_RX_POSTINC          (1UL << 1) /**< RX buffer address incremented after transfer. */

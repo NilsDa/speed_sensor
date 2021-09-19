@@ -1092,7 +1092,7 @@
 // <e> NRF_LOG_ENABLED - nrf_log - Logger
 //==========================================================
 #ifndef NRF_LOG_ENABLED
-#define NRF_LOG_ENABLED 1
+#define NRF_LOG_ENABLED 0
 #endif
 // <h> Log message pool - Configuration of log message pool
 
@@ -1173,6 +1173,7 @@
 // <i> Log data is buffered and can be processed in idle.
 
 #ifndef NRF_LOG_DEFERRED
+//#define NRF_LOG_DEFERRED 1 // standard value (I changed to 0 because tutorial said so...)
 #define NRF_LOG_DEFERRED 1
 #endif
 
