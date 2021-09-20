@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdint.h": "c",
+			"stdbool.h": "c",
+			"nrf_fprintf.h": "c",
+			"boards.h": "c",
+			"nrf_drv_spi.h": "c",
+			"nrf_log_ctrl.h": "c",
+			"nrf_gpio.h": "c",
+			"nrf_log_default_backends.h": "c",
+			"lis2dh12_internal.h": "c",
+			"nrf_log.h": "c",
+			"nrfx_spi.h": "c",
+			"nrfx.h": "c",
+			"nrf_spi.h": "c",
+			"nrfx_config.h": "c",
+			"sdk_config.h": "c",
+			"nrf52832_peripherals.h": "c",
+			"nrfx_common.h": "c",
+			"nrf_peripherals.h": "c",
+			"app_util_platform.h": "c",
+			"apply_old_config.h": "c",
+			"nrf_delay.h": "c",
+			"nrfx_glue.h": "c",
+			"nrfx_errors.h": "c",
+			"nrf_twi_sensor.h": "c",
+			"nrf_section.h": "c",
+			"sdk_common.h": "c",
+			"nrf_balloc.h": "c",
+			"lis2dh12_spi.h": "c"
+		}
+	}
+}
