@@ -1,0 +1,3 @@
+[submodule "Software/speed_sensor_firmware"]
+	path = Software/speed_sensor_firmware
+	url = git@github.com:NilsDa/speed_sensor_firmware.git
