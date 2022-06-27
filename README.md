@@ -1,6 +1,6 @@
 # Speed_Sensor
 
-This Repository contains lots of random files and data relating to the speed_sensor project.
+This Repository contains the complete KiCad project of the speed_sensor PCB design as well as important Datasheets and lots of random files and data relating to the project.
 
 ## important directories
 
