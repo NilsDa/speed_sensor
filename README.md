@@ -8,3 +8,7 @@ This Repository contains the complete KiCad project of the speed_sensor PCB desi
 - **/KiCad** -> complete KiCad project and resulting gerber files for pcb printing.
 - /Software -> miscellaneous software created mainly to experiment with certain things. not critical
 - rest: unsorted files and folders containing parts-lists/footprints/... (need to be properly sorted)
+
+## LICENSE
+
+No license because project is properly unfinished :D Whoever would want access, needs to contact me.
